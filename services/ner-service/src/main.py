@@ -1,0 +1,94 @@
+import spacy
+import time
+import psutil
+import os
+import logging
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import List
+from pathlib import Path
+
+# Setup Logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger("NER-Service")
+
+# Inisialisasi App
+app = FastAPI(
+    title="Shipvue NER Service",
+    description="Microservice untuk deteksi PII (Nama & Alamat) menggunakan Custom Spacy Model",
+    version="1.0.0"
+)
+
+# Load Model saat startup 
+BASE_DIR = Path(__file__).resolve().parent.parent 
+MODEL_PATH = BASE_DIR / "models" / "shipvue_ner"
+try:
+    nlp = spacy.load(MODEL_PATH)
+    print("[INIT] Model loaded successfully!")
+except Exception as e:
+    print(f"[ERROR] Gagal load model. Error: {e}")
+    # Fallback ke blank model agar API tidak crash 
+    nlp = spacy.blank("id")
+
+# Skema Input & Output 
+class TextRequest(BaseModel):
+    text: str
+
+class Entity(BaseModel):
+    text: str
+    label: str
+    start: int
+    end: int
+
+class NERResponse(BaseModel):
+    entities: List[Entity]
+    latency_ms: float
+    memory_usage_mb: float
+
+@app.get("/")
+def health_check():
+    return {"status": "active", "model": "shipvue_ner"}
+
+@app.post("/scan", response_model=NERResponse)
+def scan_text(request: TextRequest):
+    if not nlp:
+        raise HTTPException(status_code=500, detail="Model NER belum dimuat.")
+    
+    # Performance Metric
+    process = psutil.Process(os.getpid())
+    start_time = time.perf_counter()
+    
+    # Model Inference 
+    doc = nlp(request.text)
+    
+    # End Performance Metric
+    end_time = time.perf_counter()
+    latency = (end_time - start_time) * 1000  # ke miliseconds
+    memory = process.memory_info().rss / 1024 / 1024 # ke MB
+    
+    # Format Output
+    entities = []
+    for ent in doc.ents:
+        entities.append(Entity(
+            text=ent.text,
+            label=ent.label_,
+            start=ent.start_char,
+            end=ent.end_char
+        ))
+    
+    # Log info
+    logger.info(f"Input: {request.text[:30]}... | Found: {len(entities)} ents | Latency: {latency:.2f}ms | Mem: {memory:.2f}MB")
+    
+    return NERResponse(
+        entities=entities,
+        latency_ms=round(latency, 2),
+        memory_usage_mb=round(memory, 2)
+    )
+
+if __name__ == "__main__":
+    import uvicorn
+    # Menjalankan server lokal di port 8000
+    uvicorn.run(app, host="0.0.0.0", port=8000)
