@@ -1,28 +1,3742 @@
 [
   [
-    "Apakah bisa jemput paket dari Jl. Tebet Barat Dalam No. 8, Semarang, Sulawesi Selatan 01338 atas nama Balidin Dongoran, S.T.?",
+    "pagi, saya mau lapor barang rusak atas nama balidin dongoran, s.t. di jl. tebet barat dalam no. 8, semarang, sulawesi selatan 01338",
     {
       "entities": [
         [
-          102,
-          124,
+          44,
+          66,
           "PERSON"
         ],
         [
-          30,
-          91,
+          70,
+          131,
           "ADDRESS"
         ]
       ]
     }
   ],
   [
-    "Apakah bisa jemput paket dari Gang Abdul Muis No. 654, Jambi, NB 16155 atas nama Cut Putri Napitupulu?",
+    "Kurir bilang alamat Gang Abdul Muis No. 654, Jambi, NB 16155 tidak ditemukan, padahal Cut Putri Napitupulu ada di rumah.",
+    {
+      "entities": [
+        [
+          86,
+          106,
+          "PERSON"
+        ],
+        [
+          20,
+          60,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah bisa jemput paket dari Gang Erlangga No. 5, Cilegon atas nama Tgk. Yani Gunawan?",
+    {
+      "entities": [
+        [
+          69,
+          86,
+          "PERSON"
+        ],
+        [
+          30,
+          58,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke batam ya, penerimanya kamila pranowo",
+    {
+      "entities": [
+        [
+          31,
+          45,
+          "PERSON"
+        ],
+        [
+          9,
+          14,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "apakah bisa jemput paket dari jalan cikapayang no. 226 atas nama vino purnawati?",
+    {
+      "entities": [
+        [
+          65,
+          79,
+          "PERSON"
+        ],
+        [
+          30,
+          54,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Puti Kiandra Wibowo disini. Paket ke Jl. Jayawijaya No. 51, Palangkaraya, JI 04828 aman?",
+    {
+      "entities": [
+        [
+          0,
+          19,
+          "PERSON"
+        ],
+        [
+          37,
+          82,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "posisi paket tedi utami sekarang dimana ya? tujuannya ke jl. ahmad yani no. 171, tual",
+    {
+      "entities": [
+        [
+          13,
+          23,
+          "PERSON"
+        ],
+        [
+          57,
+          85,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Barang saya hancur lebur saat sampai.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Saya mau refund uang saya segera.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "posisi paket kh. budi mahendra sekarang dimana ya? tujuannya ke gang lembong no. 3, padang, pa 87133",
+    {
+      "entities": [
+        [
+          13,
+          30,
+          "PERSON"
+        ],
+        [
+          64,
+          100,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alamat: Jl. Medokan Ayu No. 310, Batu, Sumatera Selatan 47382. Penerima: Gandi Damanik. Cek dong.",
+    {
+      "entities": [
+        [
+          73,
+          86,
+          "PERSON"
+        ],
+        [
+          8,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Tolong cek resi untuk penerima Queen Permata, M.Kom. di Jalan Dipenogoro No. 656, Pangkalpinang, Bengkulu 06513.",
+    {
+      "entities": [
+        [
+          31,
+          52,
+          "PERSON"
+        ],
+        [
+          56,
+          111,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya Dadap Nasyiah, mau komplain pengiriman ke Gang Ronggowarsito No. 602 yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          18,
+          "PERSON"
+        ],
+        [
+          47,
+          73,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama ade wibisono di jl. indragiri no. 88",
+    {
+      "entities": [
+        [
+          44,
+          56,
+          "PERSON"
+        ],
+        [
+          60,
+          80,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Paket saya atas nama Asmianto Melani yang dikirim ke Jl. Tebet Barat Dalam No. 619, Sawahlunto, Banten 69985 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          36,
+          "PERSON"
+        ],
+        [
+          53,
+          108,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah bisa jemput paket dari Gg. Gegerkalong Hilir No. 13 atas nama Farhunnisa Winarsih?",
+    {
+      "entities": [
+        [
+          69,
+          88,
+          "PERSON"
+        ],
+        [
+          30,
+          58,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya kecewa sekali dengan pelayanan kurirnya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "paket an. Intan Manullang belum sampe ke Gg. Kapten Muslihat No. 241, Tidore Kepulauan, JT 49353",
+    {
+      "entities": [
+        [
+          10,
+          25,
+          "PERSON"
+        ],
+        [
+          41,
+          96,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Pagi, saya sudah menunggu 3 hari.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Apakah saya bisa ambil paket sendiri di gudang?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Saya kecewa sekali dengan pelayanan kurirnya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "posisi paket rafid uwais sekarang dimana ya? tujuannya ke jl. jend. sudirman no. 02",
+    {
+      "entities": [
+        [
+          13,
+          24,
+          "PERSON"
+        ],
+        [
+          58,
+          83,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kenapa ongkir ke tempat saya mahal sekali?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "posisi paket juli zulkarnain, s.h. sekarang dimana ya? tujuannya ke gg. bkr no. 33, malang, ma 30365",
+    {
+      "entities": [
+        [
+          13,
+          34,
+          "PERSON"
+        ],
+        [
+          68,
+          100,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "zelaya hidayat disini. paket ke gg. joyoboyo no. 406, ambon aman?",
+    {
+      "entities": [
+        [
+          0,
+          14,
+          "PERSON"
+        ],
+        [
+          32,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya tidak terima kalau barangnya pecah.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Tolong cek resi untuk penerima KH. Kawaya Winarsih di Jalan Otto Iskandardinata No. 95, Tebingtinggi, Maluku 65648.",
+    {
+      "entities": [
+        [
+          31,
+          50,
+          "PERSON"
+        ],
+        [
+          54,
+          114,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "saya dadi andriani, mau komplain pengiriman ke jl. peta no. 9 yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          18,
+          "PERSON"
+        ],
+        [
+          47,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama cornelia prakasa yang dikirim ke jl. w.r. supratman no. 287 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          37,
+          "PERSON"
+        ],
+        [
+          54,
+          80,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "posisi paket kalim prayoga sekarang dimana ya? tujuannya ke jalan kh amin jasuta no. 87",
+    {
+      "entities": [
+        [
+          13,
+          26,
+          "PERSON"
+        ],
+        [
+          60,
+          87,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama digdaya saefullah, m.m. yang dikirim ke gang veteran no. 366 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          44,
+          "PERSON"
+        ],
+        [
+          61,
+          81,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Jalan Rawamangun No. 980 bisa cod gak? an Drs. Warsita Damanik, M.Farm.",
+    {
+      "entities": [
+        [
+          47,
+          75,
+          "PERSON"
+        ],
+        [
+          5,
+          29,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah bisa jemput paket dari Gg. Asia Afrika No. 8 atas nama Rika Pratiwi?",
+    {
+      "entities": [
+        [
+          62,
+          74,
+          "PERSON"
+        ],
+        [
+          30,
+          51,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat jl. pacuan kuda no. 092, blitar, sulawesi utara 93745 tidak ditemukan, padahal wawan tampubolon ada di rumah.",
+    {
+      "entities": [
+        [
+          99,
+          115,
+          "PERSON"
+        ],
+        [
+          20,
+          73,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket an. luluh sudiati belum sampe ke jl. sentot alibasa no. 6",
+    {
+      "entities": [
+        [
+          10,
+          23,
+          "PERSON"
+        ],
+        [
+          39,
+          63,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "rumah saya di Gang Pacuan Kuda No. 473, tolong dicek a.n Hairyanto Hidayat, M.TI.",
+    {
+      "entities": [
+        [
+          57,
+          81,
+          "PERSON"
+        ],
+        [
+          14,
+          38,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke Gang K.H. Wahid Hasyim No. 35, Makassar, KR 80831 ya, penerimanya drg. Kairav Suryatmi, S.Sos",
+    {
+      "entities": [
+        [
+          75,
+          102,
+          "PERSON"
+        ],
+        [
+          9,
+          58,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "rumah saya di Gang M.H Thamrin No. 57, tolong dicek a.n Najib Wasita",
+    {
+      "entities": [
+        [
+          56,
+          68,
+          "PERSON"
+        ],
+        [
+          14,
+          37,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir tidak sopan saat antar barang.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Halo admin, saya mau tanya resi saya kok tidak bergerak?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Kenapa ongkir ke tempat saya mahal sekali?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Min, Jl. PHH. Mustofa No. 524 bisa cod gak? an Ina Ramadan.",
+    {
+      "entities": [
+        [
+          47,
+          58,
+          "PERSON"
+        ],
+        [
+          5,
+          29,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir bilang alamat Gang Gardujati No. 671, Samarinda tidak ditemukan, padahal Nugraha Nasyidah ada di rumah.",
+    {
+      "entities": [
+        [
+          79,
+          95,
+          "PERSON"
+        ],
+        [
+          20,
+          53,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "rumah saya di Jl. Gedebage Selatan No. 6, Pematangsiantar, Papua Barat 74964, tolong dicek a.n Mahfud Habibi, S.E.I",
+    {
+      "entities": [
+        [
+          95,
+          115,
+          "PERSON"
+        ],
+        [
+          14,
+          76,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Halo admin, saya mau tanya resi saya kok tidak bergerak?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Posisi paket Ir. Almira Suryatmi sekarang dimana ya? tujuannya ke Gg. Peta No. 7, Batu",
+    {
+      "entities": [
+        [
+          13,
+          32,
+          "PERSON"
+        ],
+        [
+          66,
+          86,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket an. Daruna Saptono, M.Farm belum sampe ke Jl. H.J Maemunah No. 421, Cimahi, Maluku 71746",
+    {
+      "entities": [
+        [
+          10,
+          32,
+          "PERSON"
+        ],
+        [
+          48,
+          94,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket an. Olivia Namaga belum sampe ke Jl. Waringin No. 7",
+    {
+      "entities": [
+        [
+          10,
+          23,
+          "PERSON"
+        ],
+        [
+          39,
+          57,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "antar ke Gg. Sentot Alibasa No. 55, Cilegon, NB 74680 ya, penerimanya Elvina Padmasari",
+    {
+      "entities": [
+        [
+          70,
+          86,
+          "PERSON"
+        ],
+        [
+          9,
+          53,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya Clara Sihotang, mau komplain pengiriman ke Jalan Peta No. 71, Bandar Lampung yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          19,
+          "PERSON"
+        ],
+        [
+          48,
+          81,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Woy paket Lulut Permadi, S.E. nyasar ke Jalan Merdeka No. 712, Tasikmalaya, LA 67737 nih!",
+    {
+      "entities": [
+        [
+          10,
+          29,
+          "PERSON"
+        ],
+        [
+          40,
+          84,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat gang erlangga no. 33, samarinda tidak ditemukan, padahal r.m. harjo nainggolan ada di rumah.",
+    {
+      "entities": [
+        [
+          77,
+          98,
+          "PERSON"
+        ],
+        [
+          20,
+          51,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke Gang Sukajadi No. 2, Bandung, Jawa Barat 17187 ya, penerimanya Gina Zulkarnain",
+    {
+      "entities": [
+        [
+          72,
+          87,
+          "PERSON"
+        ],
+        [
+          9,
+          55,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke Kendari ya, penerimanya Najam Megantara",
+    {
+      "entities": [
+        [
+          33,
+          48,
+          "PERSON"
+        ],
+        [
+          9,
+          16,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama hj. widya najmudin di pangkalpinang",
+    {
+      "entities": [
+        [
+          44,
+          62,
+          "PERSON"
+        ],
+        [
+          66,
+          79,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "saya shania palastri, mau komplain pengiriman ke gang kutai no. 64, langsa, kalimantan selatan 71369 yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          20,
+          "PERSON"
+        ],
+        [
+          49,
+          100,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Min, tolong cek DM saya ya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Apakah bisa jemput paket dari Jl. Rajawali Timur No. 09, Mataram atas nama Ratih Sihombing?",
+    {
+      "entities": [
+        [
+          75,
+          90,
+          "PERSON"
+        ],
+        [
+          30,
+          64,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Tolong cek resi untuk penerima Diah Iswahyudi, S.Pd di Jl. Gegerkalong Hilir No. 5, Cimahi, BB 45171.",
+    {
+      "entities": [
+        [
+          31,
+          51,
+          "PERSON"
+        ],
+        [
+          55,
+          100,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir bilang alamat Solok tidak ditemukan, padahal Perkasa Prasetyo ada di rumah.",
+    {
+      "entities": [
+        [
+          51,
+          67,
+          "PERSON"
+        ],
+        [
+          20,
+          25,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima tgk. vinsen suryatmi di gang soekarno hatta no. 8.",
+    {
+      "entities": [
+        [
+          31,
+          51,
+          "PERSON"
+        ],
+        [
+          55,
+          80,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat gang pelajar pejuang no. 537, kendari, pa 58506 tidak ditemukan, padahal rini mangunsong ada di rumah.",
+    {
+      "entities": [
+        [
+          93,
+          108,
+          "PERSON"
+        ],
+        [
+          20,
+          67,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kirim ke Jalan Gegerkalong Hilir No. 4 ya min, titip ke Fitriani Maheswara.",
+    {
+      "entities": [
+        [
+          56,
+          74,
+          "PERSON"
+        ],
+        [
+          9,
+          38,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya R.M. Balapati Wijayanti, S.Ked, mau komplain pengiriman ke Jalan Cihampelas No. 3 yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          35,
+          "PERSON"
+        ],
+        [
+          64,
+          86,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kirim ke blitar ya min, titip ke cut titi wahyuni.",
+    {
+      "entities": [
+        [
+          33,
+          49,
+          "PERSON"
+        ],
+        [
+          9,
+          15,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "alamat: gang veteran no. 1. penerima: sarah usada. cek dong.",
+    {
+      "entities": [
+        [
+          38,
+          49,
+          "PERSON"
+        ],
+        [
+          8,
+          26,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alamat: Gg. Cikutra Timur No. 116, Tidore Kepulauan, PA 80988. Penerima: Maria Sihotang. Cek dong.",
+    {
+      "entities": [
+        [
+          73,
+          87,
+          "PERSON"
+        ],
+        [
+          8,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Tolong cek resi untuk penerima Salsabila Maheswara di Jalan Pelajar Pejuang No. 3.",
+    {
+      "entities": [
+        [
+          31,
+          50,
+          "PERSON"
+        ],
+        [
+          54,
+          81,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket an. dr. surya purwanti, m.ak belum sampe ke jl. pasteur no. 4, malang, aceh 29612",
+    {
+      "entities": [
+        [
+          10,
+          34,
+          "PERSON"
+        ],
+        [
+          50,
+          87,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kirim ke Surabaya ya min, titip ke Siska Dabukke, S.Pt.",
+    {
+      "entities": [
+        [
+          35,
+          54,
+          "PERSON"
+        ],
+        [
+          9,
+          17,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alamat: Jl. Rajawali Barat No. 244, Madiun. Penerima: Nova Sudiati. Cek dong.",
+    {
+      "entities": [
+        [
+          54,
+          66,
+          "PERSON"
+        ],
+        [
+          8,
+          42,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Paket saya atas nama Adiarja Mandasari yang dikirim ke Gang KH Amin Jasuta No. 41 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          38,
+          "PERSON"
+        ],
+        [
+          55,
+          81,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "min, jalan bangka raya no. 369, pontianak, dki jakarta 45352 bisa cod gak? an ayu simbolon.",
+    {
+      "entities": [
+        [
+          78,
+          90,
+          "PERSON"
+        ],
+        [
+          5,
+          60,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kajen Usada disini. Paket ke Gang H.J Maemunah No. 312, Dumai, Kalimantan Barat 12779 aman?",
+    {
+      "entities": [
+        [
+          0,
+          11,
+          "PERSON"
+        ],
+        [
+          29,
+          85,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "drs. ikin zulaika, m.farm disini. paket ke jl. soekarno hatta no. 11, singkawang aman?",
+    {
+      "entities": [
+        [
+          0,
+          25,
+          "PERSON"
+        ],
+        [
+          43,
+          80,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima drs. kiandra hariyah di gang ahmad dahlan no. 9.",
+    {
+      "entities": [
+        [
+          31,
+          51,
+          "PERSON"
+        ],
+        [
+          55,
+          78,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "saya galih wahyudin, mau komplain pengiriman ke gang tebet barat dalam no. 0, batam, nb 86449 yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          19,
+          "PERSON"
+        ],
+        [
+          48,
+          93,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat jalan siliwangi no. 23 tidak ditemukan, padahal r. juli hutapea, m.farm ada di rumah.",
+    {
+      "entities": [
+        [
+          68,
+          91,
+          "PERSON"
+        ],
+        [
+          20,
+          42,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Woy paket Vivi Laksita nyasar ke Tanjungbalai nih!",
+    {
+      "entities": [
+        [
+          10,
+          22,
+          "PERSON"
+        ],
+        [
+          33,
+          45,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "rumah saya di Tasikmalaya, tolong dicek a.n R.M. Radika Fujiati",
+    {
+      "entities": [
+        [
+          44,
+          63,
+          "PERSON"
+        ],
+        [
+          14,
+          25,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "min, jalan waringin no. 90, banda aceh, kepulauan bangka belitung 28986 bisa cod gak? an gandewa maulana, s.e.i.",
+    {
+      "entities": [
+        [
+          89,
+          111,
+          "PERSON"
+        ],
+        [
+          5,
+          71,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Tolong cek resi untuk penerima Prayoga Suwarno di Pagaralam.",
+    {
+      "entities": [
+        [
+          31,
+          46,
+          "PERSON"
+        ],
+        [
+          50,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Pagi, saya sudah menunggu 3 hari.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Woy paket Luwes Thamrin nyasar ke Batam nih!",
+    {
+      "entities": [
+        [
+          10,
+          23,
+          "PERSON"
+        ],
+        [
+          34,
+          39,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir bilang alamat Jl. Setiabudhi No. 5, Tangerang Selatan, Sulawesi Tenggara 22170 tidak ditemukan, padahal Halima Wahyuni ada di rumah.",
+    {
+      "entities": [
+        [
+          110,
+          124,
+          "PERSON"
+        ],
+        [
+          20,
+          84,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "farah gunawan disini. paket ke gang surapati no. 7 aman?",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "PERSON"
+        ],
+        [
+          31,
+          50,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke gang rungkut industri no. 6 ya, penerimanya jessica nashiruddin",
+    {
+      "entities": [
+        [
+          53,
+          72,
+          "PERSON"
+        ],
+        [
+          9,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Paket saya atas nama Muhammad Handayani yang dikirim ke Jalan Gegerkalong Hilir No. 355, Meulaboh kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          39,
+          "PERSON"
+        ],
+        [
+          56,
+          97,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Cut Rahmi Mangunsong disini. Paket ke Jalan Pasirkoja No. 73, Singkawang aman?",
+    {
+      "entities": [
+        [
+          0,
+          20,
+          "PERSON"
+        ],
+        [
+          38,
+          72,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "saya talia lestari, mau komplain pengiriman ke jl. kiaracondong no. 370 yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          18,
+          "PERSON"
+        ],
+        [
+          47,
+          71,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat tangerang selatan tidak ditemukan, padahal puspa pertiwi ada di rumah.",
+    {
+      "entities": [
+        [
+          63,
+          76,
+          "PERSON"
+        ],
+        [
+          20,
+          37,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Jalan Gedebage Selatan No. 2, Cimahi, Jawa Timur 35841 bisa cod gak? an Tgk. Cagak Puspasari.",
+    {
+      "entities": [
+        [
+          77,
+          97,
+          "PERSON"
+        ],
+        [
+          5,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah saya bisa ambil paket sendiri di gudang?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "paket an. Faizah Usada belum sampe ke Jalan S. Parman No. 2, Cimahi, NB 01094",
+    {
+      "entities": [
+        [
+          10,
+          22,
+          "PERSON"
+        ],
+        [
+          38,
+          77,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Tolong cek resi untuk penerima Danu Pertiwi, S.Farm di Gang Ronggowarsito No. 647, Tanjungbalai, Bengkulu 76773.",
+    {
+      "entities": [
+        [
+          31,
+          51,
+          "PERSON"
+        ],
+        [
+          55,
+          111,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama Rachel Megantara di Gang Gegerkalong Hilir No. 88, Lubuklinggau, KU 14732",
+    {
+      "entities": [
+        [
+          44,
+          60,
+          "PERSON"
+        ],
+        [
+          64,
+          117,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir bilang alamat Jl. Suniaraja No. 7, Kendari tidak ditemukan, padahal Asirwanda Siregar ada di rumah.",
+    {
+      "entities": [
+        [
+          74,
+          91,
+          "PERSON"
+        ],
+        [
+          20,
+          48,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Barang saya hancur lebur saat sampai.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Saya Lamar Thamrin, mau komplain pengiriman ke Gang Kutisari Selatan No. 7, Prabumulih, Aceh 62456 yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          18,
+          "PERSON"
+        ],
+        [
+          47,
+          98,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Tolong cek resi untuk penerima Aurora Wacana di Jalan Kiaracondong No. 8.",
+    {
+      "entities": [
+        [
+          31,
+          44,
+          "PERSON"
+        ],
+        [
+          48,
+          72,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima olivia gunarto di singkawang.",
+    {
+      "entities": [
+        [
+          31,
+          45,
+          "PERSON"
+        ],
+        [
+          49,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Kediri bisa cod gak? an Zaenab Salahudin, M.Farm.",
+    {
+      "entities": [
+        [
+          29,
+          53,
+          "PERSON"
+        ],
+        [
+          5,
+          11,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "woy paket anastasia padmasari, m.kom. nyasar ke pekalongan nih!",
+    {
+      "entities": [
+        [
+          10,
+          37,
+          "PERSON"
+        ],
+        [
+          48,
+          58,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah saya bisa ambil paket sendiri di gudang?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Apakah bisa jemput paket dari Kota Administrasi Jakarta Utara atas nama Drs. Viman Halimah, S.Gz?",
+    {
+      "entities": [
+        [
+          72,
+          96,
+          "PERSON"
+        ],
+        [
+          30,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "apakah bisa jemput paket dari gg. cempaka no. 4, tidore kepulauan atas nama t. darmanto salahudin?",
+    {
+      "entities": [
+        [
+          76,
+          97,
+          "PERSON"
+        ],
+        [
+          30,
+          65,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah bisa jemput paket dari Jalan HOS. Cokroaminoto No. 826 atas nama Gabriella Pangestu?",
+    {
+      "entities": [
+        [
+          72,
+          90,
+          "PERSON"
+        ],
+        [
+          30,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Posisi paket Warji Kusmawati, M.Kom. sekarang dimana ya? tujuannya ke Gang H.J Maemunah No. 193, Cirebon, Sulawesi Barat 06724",
+    {
+      "entities": [
+        [
+          13,
+          36,
+          "PERSON"
+        ],
+        [
+          70,
+          126,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "posisi paket adika salahudin sekarang dimana ya? tujuannya ke gang k.h. wahid hasyim no. 549, tangerang",
+    {
+      "entities": [
+        [
+          13,
+          28,
+          "PERSON"
+        ],
+        [
+          62,
+          103,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir bilang alamat Jalan Pasirkoja No. 5 tidak ditemukan, padahal Sutan Cayadi Suryatmi, S.Sos ada di rumah.",
+    {
+      "entities": [
+        [
+          67,
+          95,
+          "PERSON"
+        ],
+        [
+          20,
+          41,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya kecewa sekali dengan pelayanan kurirnya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "alamat: gg. s. parman no. 4, subulussalam, la 93327. penerima: gilda halim, s.ip. cek dong.",
+    {
+      "entities": [
+        [
+          63,
+          80,
+          "PERSON"
+        ],
+        [
+          8,
+          51,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Tolong cek resi untuk penerima Jaeman Sudiati di Jalan Pacuan Kuda No. 9, Pontianak, ST 19108.",
+    {
+      "entities": [
+        [
+          31,
+          45,
+          "PERSON"
+        ],
+        [
+          49,
+          93,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama sutan kemal nasyiah yang dikirim ke palu kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          40,
+          "PERSON"
+        ],
+        [
+          57,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat gg. tubagus ismail no. 265 tidak ditemukan, padahal cut putri hariyah ada di rumah.",
+    {
+      "entities": [
+        [
+          72,
+          89,
+          "PERSON"
+        ],
+        [
+          20,
+          46,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Paket saya atas nama Melinda Waluyo yang dikirim ke Jalan Pacuan Kuda No. 52 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "PERSON"
+        ],
+        [
+          52,
+          76,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya mau refund uang saya segera.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "woy paket fitriani kusumo nyasar ke jl. laswi no. 190, serang, bengkulu 06738 nih!",
+    {
+      "entities": [
+        [
+          10,
+          25,
+          "PERSON"
+        ],
+        [
+          36,
+          77,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kirim ke semarang ya min, titip ke perkasa hakim.",
+    {
+      "entities": [
+        [
+          35,
+          48,
+          "PERSON"
+        ],
+        [
+          9,
+          17,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Woy paket Ellis Utami, S.Farm nyasar ke Gg. Cikutra Barat No. 6, Padangpanjang nih!",
+    {
+      "entities": [
+        [
+          10,
+          29,
+          "PERSON"
+        ],
+        [
+          40,
+          78,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "dr. cahyanto wibisono disini. paket ke gg. h.j maemunah no. 751, banjarbaru, kepulauan riau 99013 aman?",
+    {
+      "entities": [
+        [
+          0,
+          21,
+          "PERSON"
+        ],
+        [
+          39,
+          97,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "apakah bisa jemput paket dari gg. rajawali barat no. 331, kota administrasi jakarta barat, kalimantan tengah 38546 atas nama kh. langgeng winarsih, m.pd?",
+    {
+      "entities": [
+        [
+          125,
+          152,
+          "PERSON"
+        ],
+        [
+          30,
+          114,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama patricia yulianti yang dikirim ke jl. asia afrika no. 89 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          38,
+          "PERSON"
+        ],
+        [
+          55,
+          77,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "posisi paket drg. ida mangunsong sekarang dimana ya? tujuannya ke gg. ahmad yani no. 785, tual, sumatera barat 72522",
+    {
+      "entities": [
+        [
+          13,
+          32,
+          "PERSON"
+        ],
+        [
+          66,
+          116,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke Gang Asia Afrika No. 886 ya, penerimanya Puji Lestari, S.E.",
+    {
+      "entities": [
+        [
+          50,
+          68,
+          "PERSON"
+        ],
+        [
+          9,
+          33,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat gang ahmad yani no. 341, sungai penuh tidak ditemukan, padahal agus nuraini ada di rumah.",
+    {
+      "entities": [
+        [
+          83,
+          95,
+          "PERSON"
+        ],
+        [
+          20,
+          57,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, tolong cek DM saya ya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Pagi, saya sudah menunggu 3 hari.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Min, Kediri bisa cod gak? an Hj. Vanya Firmansyah, S.Pt.",
+    {
+      "entities": [
+        [
+          29,
+          55,
+          "PERSON"
+        ],
+        [
+          5,
+          11,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "min, jl. pelajar pejuang no. 9, cirebon, mu 39261 bisa cod gak? an umay purnawati.",
+    {
+      "entities": [
+        [
+          67,
+          81,
+          "PERSON"
+        ],
+        [
+          5,
+          49,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah saya bisa ambil paket sendiri di gudang?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Kurir bilang alamat Serang tidak ditemukan, padahal Elisa Pratiwi ada di rumah.",
+    {
+      "entities": [
+        [
+          52,
+          65,
+          "PERSON"
+        ],
+        [
+          20,
+          26,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Gang Moch. Ramdan No. 86, Denpasar, Papua Barat 94311 bisa cod gak? an Vicky Simbolon.",
+    {
+      "entities": [
+        [
+          76,
+          90,
+          "PERSON"
+        ],
+        [
+          5,
+          58,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alamat: Jalan Astana Anyar No. 581. Penerima: Eva Wibowo. Cek dong.",
+    {
+      "entities": [
+        [
+          46,
+          56,
+          "PERSON"
+        ],
+        [
+          8,
+          34,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima ir. violet simbolon di gang sukajadi no. 839, tangerang selatan, pb 24447.",
+    {
+      "entities": [
+        [
+          31,
+          50,
+          "PERSON"
+        ],
+        [
+          54,
+          104,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "alamat: magelang. penerima: atma marbun. cek dong.",
+    {
+      "entities": [
+        [
+          28,
+          39,
+          "PERSON"
+        ],
+        [
+          8,
+          16,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat gg. raya ujungberung no. 3, lubuklinggau, kb 54793 tidak ditemukan, padahal ir. kezia sitompul, m.m. ada di rumah.",
+    {
+      "entities": [
+        [
+          96,
+          120,
+          "PERSON"
+        ],
+        [
+          20,
+          70,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "rumah saya di Bogor, tolong dicek a.n Keisha Setiawan",
+    {
+      "entities": [
+        [
+          38,
+          53,
+          "PERSON"
+        ],
+        [
+          14,
+          19,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket an. Gadang Permadi, S.T. belum sampe ke Subulussalam",
+    {
+      "entities": [
+        [
+          10,
+          30,
+          "PERSON"
+        ],
+        [
+          46,
+          58,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Halo admin, saya mau tanya resi saya kok tidak bergerak?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "kurir bilang alamat gg. astana anyar no. 14 tidak ditemukan, padahal balangga prayoga ada di rumah.",
+    {
+      "entities": [
+        [
+          69,
+          85,
+          "PERSON"
+        ],
+        [
+          20,
+          43,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat banda aceh tidak ditemukan, padahal chelsea latupono ada di rumah.",
+    {
+      "entities": [
+        [
+          56,
+          72,
+          "PERSON"
+        ],
+        [
+          20,
+          30,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "saya dr. septi kurniawan, s.e., mau komplain pengiriman ke gang sukajadi no. 334 yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          30,
+          "PERSON"
+        ],
+        [
+          59,
+          80,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima h. rusman haryanto, m.farm di gang kiaracondong no. 14, pontianak, maluku utara 96915.",
+    {
+      "entities": [
+        [
+          31,
+          57,
+          "PERSON"
+        ],
+        [
+          61,
+          116,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "apakah bisa jemput paket dari jl. raya setiabudhi no. 341, medan, jawa tengah 69296 atas nama zulfa haryanti?",
+    {
+      "entities": [
+        [
+          94,
+          108,
+          "PERSON"
+        ],
+        [
+          30,
+          83,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Fitria Laksita disini. Paket ke Gang Rajiman No. 77 aman?",
+    {
+      "entities": [
+        [
+          0,
+          14,
+          "PERSON"
+        ],
+        [
+          32,
+          51,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya Bakda Pratiwi, mau komplain pengiriman ke Jalan Pelajar Pejuang No. 842, Salatiga, Sumatera Barat 91485 yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          18,
+          "PERSON"
+        ],
+        [
+          47,
+          108,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Woy paket KH. Artanto Farida nyasar ke Jl. Rajawali Barat No. 745, Palembang, Jambi 39596 nih!",
+    {
+      "entities": [
+        [
+          10,
+          28,
+          "PERSON"
+        ],
+        [
+          39,
+          89,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "min, gg. jayawijaya no. 98, madiun, lampung 94812 bisa cod gak? an latif mandala.",
+    {
+      "entities": [
+        [
+          67,
+          80,
+          "PERSON"
+        ],
+        [
+          5,
+          49,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Permisi, paket saya statusnya gagal kirim.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "apakah bisa jemput paket dari gang erlangga no. 59 atas nama kh. hendra halim, s.t.?",
+    {
+      "entities": [
+        [
+          61,
+          83,
+          "PERSON"
+        ],
+        [
+          30,
+          50,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kirim ke Gg. Lembong No. 37, Madiun, LA 89297 ya min, titip ke Taswir Iswahyudi.",
+    {
+      "entities": [
+        [
+          63,
+          79,
+          "PERSON"
+        ],
+        [
+          9,
+          45,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket an. tgk. tugiman zulaika, s.gz belum sampe ke gg. otto iskandardinata no. 2",
+    {
+      "entities": [
+        [
+          10,
+          36,
+          "PERSON"
+        ],
+        [
+          52,
+          81,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kenapa ongkir ke tempat saya mahal sekali?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Min, tolong cek DM saya ya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "min, gg. ciumbuleuit no. 611, bima bisa cod gak? an harto utami.",
+    {
+      "entities": [
+        [
+          52,
+          63,
+          "PERSON"
+        ],
+        [
+          5,
+          34,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "rumah saya di tangerang selatan, tolong dicek a.n kartika salahudin",
+    {
+      "entities": [
+        [
+          50,
+          67,
+          "PERSON"
+        ],
+        [
+          14,
+          31,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama zelda pratama yang dikirim ke jalan kapten muslihat no. 38 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          34,
+          "PERSON"
+        ],
+        [
+          51,
+          79,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Posisi paket Drs. Fitriani Wijaya sekarang dimana ya? tujuannya ke Jalan Waringin No. 091, Balikpapan",
+    {
+      "entities": [
+        [
+          13,
+          33,
+          "PERSON"
+        ],
+        [
+          67,
+          101,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "gasti gunarto disini. paket ke gg. suniaraja no. 1, lhokseumawe aman?",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "PERSON"
+        ],
+        [
+          31,
+          63,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama maya permadi, s.gz yang dikirim ke malang kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          39,
+          "PERSON"
+        ],
+        [
+          56,
+          62,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "min, gg. gedebage selatan no. 564, kota administrasi jakarta selatan, di yogyakarta 78507 bisa cod gak? an dr. purwa rajata.",
+    {
+      "entities": [
+        [
+          107,
+          123,
+          "PERSON"
+        ],
+        [
+          5,
+          89,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "ir. eli uwais, s.e. disini. paket ke jayapura aman?",
+    {
+      "entities": [
+        [
+          0,
+          19,
+          "PERSON"
+        ],
+        [
+          37,
+          45,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Permisi, paket saya statusnya gagal kirim.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "apakah bisa jemput paket dari madiun atas nama hilda agustina?",
+    {
+      "entities": [
+        [
+          47,
+          61,
+          "PERSON"
+        ],
+        [
+          30,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke Jl. R.E Martadinata No. 05, Ambon ya, penerimanya Kadir Hasanah",
+    {
+      "entities": [
+        [
+          59,
+          72,
+          "PERSON"
+        ],
+        [
+          9,
+          42,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Gang Cikutra Barat No. 410, Pematangsiantar, Sulawesi Barat 71918 bisa cod gak? an Ir. Harimurti Samosir, S.IP.",
+    {
+      "entities": [
+        [
+          88,
+          115,
+          "PERSON"
+        ],
+        [
+          5,
+          70,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "woy paket makuta wijaya nyasar ke bogor nih!",
+    {
+      "entities": [
+        [
+          10,
+          23,
+          "PERSON"
+        ],
+        [
+          34,
+          39,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Woy paket KH. Lanang Kurniawan, S.E.I nyasar ke Cilegon nih!",
+    {
+      "entities": [
+        [
+          10,
+          37,
+          "PERSON"
+        ],
+        [
+          48,
+          55,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Posisi paket Ir. Gadang Suartini, S.Gz sekarang dimana ya? tujuannya ke Tidore Kepulauan",
+    {
+      "entities": [
+        [
+          13,
+          38,
+          "PERSON"
+        ],
+        [
+          72,
+          88,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama sutan bakiono hariyah di jl. cikutra barat no. 236, tangerang selatan, dki jakarta 10137",
+    {
+      "entities": [
+        [
+          44,
+          65,
+          "PERSON"
+        ],
+        [
+          69,
+          132,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Saya mau refund uang saya segera.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "alamat: palopo. penerima: r.m. bakiman sitompul, s.ip. cek dong.",
+    {
+      "entities": [
+        [
+          26,
+          53,
+          "PERSON"
+        ],
+        [
+          8,
+          14,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Barang saya hancur lebur saat sampai.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "posisi paket anom susanti sekarang dimana ya? tujuannya ke gang m.h thamrin no. 01, meulaboh, jawa barat 38380",
+    {
+      "entities": [
+        [
+          13,
+          25,
+          "PERSON"
+        ],
+        [
+          59,
+          110,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "min, yogyakarta bisa cod gak? an violet tamba.",
+    {
+      "entities": [
+        [
+          33,
+          45,
+          "PERSON"
+        ],
+        [
+          5,
+          15,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "alamat: jalan merdeka no. 6, cirebon, kalimantan barat 95590. penerima: r.a. endah januar. cek dong.",
+    {
+      "entities": [
+        [
+          72,
+          89,
+          "PERSON"
+        ],
+        [
+          8,
+          60,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir bilang alamat Jl. Sadang Serang No. 2, Madiun tidak ditemukan, padahal Tira Thamrin, M.Farm ada di rumah.",
+    {
+      "entities": [
+        [
+          77,
+          97,
+          "PERSON"
+        ],
+        [
+          20,
+          51,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, tolong cek DM saya ya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "min, cirebon bisa cod gak? an ajimin maulana.",
+    {
+      "entities": [
+        [
+          30,
+          44,
+          "PERSON"
+        ],
+        [
+          5,
+          12,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "min, gg. ir. h. djuanda no. 13, malang bisa cod gak? an putri susanti, s.i.kom.",
+    {
+      "entities": [
+        [
+          56,
+          78,
+          "PERSON"
+        ],
+        [
+          5,
+          38,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "alamat: jalan pasirkoja no. 315, bima, aceh 67626. penerima: eli usada. cek dong.",
+    {
+      "entities": [
+        [
+          61,
+          70,
+          "PERSON"
+        ],
+        [
+          8,
+          49,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya kecewa sekali dengan pelayanan kurirnya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Permisi, paket saya statusnya gagal kirim.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "posisi paket keisha tampubolon sekarang dimana ya? tujuannya ke jalan jamika no. 10, banda aceh, mu 11526",
+    {
+      "entities": [
+        [
+          13,
+          30,
+          "PERSON"
+        ],
+        [
+          64,
+          105,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Halo admin, saya mau tanya resi saya kok tidak bergerak?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Posisi paket Opan Hutagalung sekarang dimana ya? tujuannya ke Tebingtinggi",
+    {
+      "entities": [
+        [
+          13,
+          28,
+          "PERSON"
+        ],
+        [
+          62,
+          74,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Puput Saptono, S.Pd disini. Paket ke Jl. Suniaraja No. 8, Bukittinggi, BE 06149 aman?",
+    {
+      "entities": [
+        [
+          0,
+          19,
+          "PERSON"
+        ],
+        [
+          37,
+          79,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Barang saya hancur lebur saat sampai.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Permisi, paket saya statusnya gagal kirim.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama Farah Kuswoyo di Metro",
+    {
+      "entities": [
+        [
+          44,
+          57,
+          "PERSON"
+        ],
+        [
+          61,
+          66,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "min, gang pasirkoja no. 490, tomohon, gorontalo 58693 bisa cod gak? an fitria hassanah.",
+    {
+      "entities": [
+        [
+          71,
+          86,
+          "PERSON"
+        ],
+        [
+          5,
+          53,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "alamat: gg. rajawali barat no. 608, bitung, st 23320. penerima: dt. saadat wibisono. cek dong.",
+    {
+      "entities": [
+        [
+          64,
+          83,
+          "PERSON"
+        ],
+        [
+          8,
+          52,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat semarang tidak ditemukan, padahal cindy zulaika ada di rumah.",
+    {
+      "entities": [
+        [
+          54,
+          67,
+          "PERSON"
+        ],
+        [
+          20,
+          28,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Paket saya atas nama KH. Hari Kusumo yang dikirim ke Parepare kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          36,
+          "PERSON"
+        ],
+        [
+          53,
+          61,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, tolong cek DM saya ya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "kirim ke jalan suniaraja no. 30, kota administrasi jakarta timur, pa 54447 ya min, titip ke cawuk saefullah.",
+    {
+      "entities": [
+        [
+          92,
+          107,
+          "PERSON"
+        ],
+        [
+          9,
+          74,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya mau refund uang saya segera.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Kenapa ongkir ke tempat saya mahal sekali?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "posisi paket elma kusmawati sekarang dimana ya? tujuannya ke gg. dipatiukur no. 06, cilegon, kt 33468",
+    {
+      "entities": [
+        [
+          13,
+          27,
+          "PERSON"
+        ],
+        [
+          61,
+          101,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Jl. Kutisari Selatan No. 349, Tasikmalaya, Kepulauan Riau 65743 bisa cod gak? an Saka Zulaika.",
+    {
+      "entities": [
+        [
+          86,
+          98,
+          "PERSON"
+        ],
+        [
+          5,
+          68,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, tolong cek DM saya ya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama Ilsa Wastuti di Gang Kebonjati No. 830",
+    {
+      "entities": [
+        [
+          44,
+          56,
+          "PERSON"
+        ],
+        [
+          60,
+          82,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Alamat: Jalan KH Amin Jasuta No. 9. Penerima: Cinta Halimah. Cek dong.",
+    {
+      "entities": [
+        [
+          46,
+          59,
+          "PERSON"
+        ],
+        [
+          8,
+          34,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alamat: Gg. KH Amin Jasuta No. 074. Penerima: Puti Nadine Nababan. Cek dong.",
+    {
+      "entities": [
+        [
+          46,
+          65,
+          "PERSON"
+        ],
+        [
+          8,
+          34,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kirim ke jl. kendalsari no. 66, pariaman, papua barat 08350 ya min, titip ke prabawa narpati.",
+    {
+      "entities": [
+        [
+          77,
+          92,
+          "PERSON"
+        ],
+        [
+          9,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Jl. Merdeka No. 5, Blitar, Gorontalo 89421 bisa cod gak? an Usyi Nuraini.",
+    {
+      "entities": [
+        [
+          65,
+          77,
+          "PERSON"
+        ],
+        [
+          5,
+          47,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Woy paket Cut Ifa Siregar, M.M. nyasar ke Gg. Rajiman No. 32, Banda Aceh, KI 23098 nih!",
+    {
+      "entities": [
+        [
+          10,
+          31,
+          "PERSON"
+        ],
+        [
+          42,
+          82,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama Bancar Utama di Jl. Rajawali Barat No. 18, Kota Administrasi Jakarta Timur",
+    {
+      "entities": [
+        [
+          44,
+          56,
+          "PERSON"
+        ],
+        [
+          60,
+          118,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah bisa jemput paket dari Jalan Ronggowarsito No. 30 atas nama Ir. Tira Mandala?",
+    {
+      "entities": [
+        [
+          67,
+          83,
+          "PERSON"
+        ],
+        [
+          30,
+          56,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "saya mumpuni irawan, mau komplain pengiriman ke mataram yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          19,
+          "PERSON"
+        ],
+        [
+          48,
+          55,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alamat: Jl. Kapten Muslihat No. 2, Manado, Sulawesi Tengah 15521. Penerima: Ir. Galar Aryani, S.IP. Cek dong.",
+    {
+      "entities": [
+        [
+          76,
+          98,
+          "PERSON"
+        ],
+        [
+          8,
+          64,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Gang Suryakencana No. 120, Bima, SR 97296 bisa cod gak? an Lalita Hasanah.",
+    {
+      "entities": [
+        [
+          64,
+          78,
+          "PERSON"
+        ],
+        [
+          5,
+          46,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama tgk. luwar dabukke, s.e.i yang dikirim ke jalan ronggowarsito no. 62, sabang kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          46,
+          "PERSON"
+        ],
+        [
+          63,
+          97,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Posisi paket Cut Ajeng Yuniar sekarang dimana ya? tujuannya ke Gang Joyoboyo No. 17",
+    {
+      "entities": [
+        [
+          13,
+          29,
+          "PERSON"
+        ],
+        [
+          63,
+          83,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima iriana lazuardi di gang stasiun wonokromo no. 9.",
+    {
+      "entities": [
+        [
+          31,
+          46,
+          "PERSON"
+        ],
+        [
+          50,
+          78,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir bilang alamat Jalan Pasir Koja No. 3, Depok tidak ditemukan, padahal Tina Wahyuni ada di rumah.",
+    {
+      "entities": [
+        [
+          75,
+          87,
+          "PERSON"
+        ],
+        [
+          20,
+          49,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke gg. indragiri no. 82, tanjungbalai ya, penerimanya wadi wijaya",
+    {
+      "entities": [
+        [
+          60,
+          71,
+          "PERSON"
+        ],
+        [
+          9,
+          43,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat gang m.h thamrin no. 3 tidak ditemukan, padahal r. uchita mahendra ada di rumah.",
+    {
+      "entities": [
+        [
+          68,
+          86,
+          "PERSON"
+        ],
+        [
+          20,
+          42,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket an. Danu Oktaviani belum sampe ke Jalan M.T Haryono No. 062, Banjarbaru",
+    {
+      "entities": [
+        [
+          10,
+          24,
+          "PERSON"
+        ],
+        [
+          40,
+          77,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama asman pangestu, s.t. yang dikirim ke jalan monginsidi no. 4 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          41,
+          "PERSON"
+        ],
+        [
+          58,
+          80,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya kecewa sekali dengan pelayanan kurirnya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Apakah bisa jemput paket dari Jalan Antapani Lama No. 4, Solok, ST 59893 atas nama Salwa Hardiansyah, S.Sos?",
+    {
+      "entities": [
+        [
+          83,
+          107,
+          "PERSON"
+        ],
+        [
+          30,
+          72,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke Jalan Rumah Sakit No. 20 ya, penerimanya H. Yoga Nababan, S.Pd",
+    {
+      "entities": [
+        [
+          50,
+          71,
+          "PERSON"
+        ],
+        [
+          9,
+          33,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "min, gang ciumbuleuit no. 5, denpasar, sumatera utara 82688 bisa cod gak? an wisnu sinaga.",
+    {
+      "entities": [
+        [
+          77,
+          89,
+          "PERSON"
+        ],
+        [
+          5,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket an. cornelia tampubolon belum sampe ke jl. raya ujungberung no. 16",
+    {
+      "entities": [
+        [
+          10,
+          29,
+          "PERSON"
+        ],
+        [
+          45,
+          72,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah bisa jemput paket dari Gg. H.J Maemunah No. 207 atas nama Puput Suryono?",
+    {
+      "entities": [
+        [
+          65,
+          78,
+          "PERSON"
+        ],
+        [
+          30,
+          54,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Pagi, saya sudah menunggu 3 hari.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "rumah saya di jl. indragiri no. 158, tolong dicek a.n julia firgantoro, s.pt",
+    {
+      "entities": [
+        [
+          54,
+          76,
+          "PERSON"
+        ],
+        [
+          14,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "woy paket elvin sihombing nyasar ke tangerang nih!",
+    {
+      "entities": [
+        [
+          10,
+          25,
+          "PERSON"
+        ],
+        [
+          36,
+          45,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Denpasar bisa cod gak? an H. Marsudi Wahyudin, S.Ked.",
+    {
+      "entities": [
+        [
+          31,
+          57,
+          "PERSON"
+        ],
+        [
+          5,
+          13,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Pagi, saya sudah menunggu 3 hari.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Saya tidak terima kalau barangnya pecah.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Apakah saya bisa ambil paket sendiri di gudang?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Apakah saya bisa ambil paket sendiri di gudang?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Saya mau refund uang saya segera.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "rumah saya di Jalan Otto Iskandardinata No. 3, tolong dicek a.n Latif Ramadan",
+    {
+      "entities": [
+        [
+          64,
+          77,
+          "PERSON"
+        ],
+        [
+          14,
+          45,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir bilang alamat Gg. Pelajar Pejuang No. 25 tidak ditemukan, padahal Edi Safitri ada di rumah.",
+    {
+      "entities": [
+        [
+          72,
+          83,
+          "PERSON"
+        ],
+        [
+          20,
+          46,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat gg. kutai no. 084, probolinggo tidak ditemukan, padahal malika hassanah ada di rumah.",
+    {
+      "entities": [
+        [
+          76,
+          91,
+          "PERSON"
+        ],
+        [
+          20,
+          50,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "posisi paket drg. martani maryadi sekarang dimana ya? tujuannya ke jalan jend. sudirman no. 9",
+    {
+      "entities": [
+        [
+          13,
+          33,
+          "PERSON"
+        ],
+        [
+          67,
+          93,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "rumah saya di gg. moch. ramdan no. 453, surakarta, kt 67700, tolong dicek a.n teddy maulana, m.kom.",
+    {
+      "entities": [
+        [
+          78,
+          99,
+          "PERSON"
+        ],
+        [
+          14,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya tidak terima kalau barangnya pecah.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Halo admin, saya mau tanya resi saya kok tidak bergerak?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "rumah saya di gg. suryakencana no. 59, pematangsiantar, bb 38655, tolong dicek a.n gaman jailani, m.ti.",
+    {
+      "entities": [
+        [
+          83,
+          103,
+          "PERSON"
+        ],
+        [
+          14,
+          64,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah saya bisa ambil paket sendiri di gudang?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama widya laksmiwati di gg. tebet barat dalam no. 73",
+    {
+      "entities": [
+        [
+          44,
+          60,
+          "PERSON"
+        ],
+        [
+          64,
+          92,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima r. septi zulkarnain di gg. kutisari selatan no. 0.",
+    {
+      "entities": [
+        [
+          31,
+          50,
+          "PERSON"
+        ],
+        [
+          54,
+          80,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Pagi, saya sudah menunggu 3 hari.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "alamat: jl. sukabumi no. 21, banda aceh. penerima: titi wijayanti, s.pd. cek dong.",
+    {
+      "entities": [
+        [
+          51,
+          71,
+          "PERSON"
+        ],
+        [
+          8,
+          39,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "apakah bisa jemput paket dari jl. waringin no. 9, prabumulih, ss 17298 atas nama karman mayasari?",
     {
       "entities": [
         [
           81,
-          101,
+          96,
           "PERSON"
         ],
         [
@@ -34,1308 +3748,56 @@
     }
   ],
   [
-    "Paket saya atas nama Tgk. Yani Gunawan yang dikirim ke Jalan M.H Thamrin No. 95, Tarakan, YO 34131 kok belum sampai?",
+    "pagi, saya mau lapor barang rusak atas nama cut vicky wastuti, s.farm di gg. moch. ramdan no. 65, pagaralam, jb 73149",
     {
       "entities": [
-        [
-          21,
-          38,
-          "PERSON"
-        ],
-        [
-          55,
-          98,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Gang Laswi No. 4, Sibolga, JI 27648 apakah tercover layanan Shipvue? Penerima Indah Hasanah.",
-    {
-      "entities": [
-        [
-          95,
-          108,
-          "PERSON"
-        ],
-        [
-          17,
-          52,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Gg. Surapati No. 13, Jambi, Sumatera Barat 72423 atas nama Mahdi Simbolon?",
-    {
-      "entities": [
-        [
-          89,
-          103,
-          "PERSON"
-        ],
-        [
-          30,
-          78,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Putri Nasyiah, S.T. di Jalan HOS. Cokroaminoto No. 7, Tomohon, BE 22691 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          32,
-          "PERSON"
-        ],
-        [
-          36,
-          84,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Kezia Riyanti, mau komplain pengiriman ke Jl. Jayawijaya No. 51, Palangkaraya, JI 04828 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          18,
-          "PERSON"
-        ],
-        [
-          47,
-          92,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Tedi Utami, mau komplain pengiriman ke Gg. Jamika No. 8, Serang, MU 01543 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          15,
-          "PERSON"
-        ],
         [
           44,
-          78,
+          69,
+          "PERSON"
+        ],
+        [
+          73,
+          117,
           "ADDRESS"
         ]
       ]
     }
   ],
   [
-    "Barang milik Dimas Purnawati di Jalan Jayawijaya No. 278, Kota Administrasi Jakarta Selatan, Sumatera Utara 38346 statusnya stuck di gudang.",
+    "Halo admin, saya mau tanya resi saya kok tidak bergerak?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "kirim ke jl. sukabumi no. 3, padang sidempuan, papua 26944 ya min, titip ke dr. edi nainggolan.",
     {
       "entities": [
         [
-          13,
-          28,
+          76,
+          94,
           "PERSON"
         ],
         [
-          32,
-          113,
+          9,
+          58,
           "ADDRESS"
         ]
       ]
     }
   ],
   [
-    "Kurir bilang alamat Jl. Cikutra Timur No. 09, Semarang, KI 10310 tidak ditemukan, padahal Martaka Wahyudin, M.M. ada di rumah.",
+    "Drs. Lintang Pratiwi, S.I.Kom disini. Paket ke Jl. Cihampelas No. 2 aman?",
     {
       "entities": [
         [
-          90,
-          112,
-          "PERSON"
-        ],
-        [
-          20,
-          64,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik dr. Belinda Mulyani, S.H. di Jl. Joyoboyo No. 7, Parepare, SR 11656 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          38,
-          "PERSON"
-        ],
-        [
-          42,
-          80,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Nadia Habibi di Gang Dr. Djunjunan No. 338, Bogor, Sulawesi Selatan 47317 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          25,
-          "PERSON"
-        ],
-        [
+          0,
           29,
-          86,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Dr. Baktiadi Hardiansyah, M.Pd di Jl. Tubagus Ismail No. 73, Banjarmasin, Jawa Timur 06474 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          43,
           "PERSON"
         ],
         [
           47,
-          103,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Gg. Lembong No. 980, Banjarmasin, BE 88208 atas nama Tami Puspita?",
-    {
-      "entities": [
-        [
-          83,
-          95,
-          "PERSON"
-        ],
-        [
-          30,
-          72,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Soleh Nashiruddin dari Gg. Gedebage Selatan No. 3, Solok, DKI Jakarta 99854, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          34,
-          "PERSON"
-        ],
-        [
-          40,
-          92,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Mulyono Sihotang, mau komplain pengiriman ke Jalan Otto Iskandardinata No. 4, Lubuklinggau, DI Yogyakarta 79911 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          21,
-          "PERSON"
-        ],
-        [
-          50,
-          116,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Jl. Soekarno Hatta No. 27, Singkawang, Sumatera Utara 84124 atas nama Sutan Jono Saptono?",
-    {
-      "entities": [
-        [
-          100,
-          118,
-          "PERSON"
-        ],
-        [
-          30,
-          89,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Jalan Sadang Serang No. 487, Banjarbaru, DKI Jakarta 40052 apakah tercover layanan Shipvue? Penerima Tirtayasa Kurniawan.",
-    {
-      "entities": [
-        [
-          118,
-          137,
-          "PERSON"
-        ],
-        [
-          17,
-          75,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Jl. Jakarta No. 0, Sawahlunto, JT 20450 tidak ditemukan, padahal Eluh Marpaung, M.M. ada di rumah.",
-    {
-      "entities": [
-        [
-          85,
-          104,
-          "PERSON"
-        ],
-        [
-          20,
-          59,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Fathonah Zulaika dari Gang Wonoayu No. 2, Cilegon, Kalimantan Barat 02563, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          33,
-          "PERSON"
-        ],
-        [
-          39,
-          90,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Endah Kurniawan, mau komplain pengiriman ke Jalan Kiaracondong No. 54, Jayapura, BA 65414 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          20,
-          "PERSON"
-        ],
-        [
-          49,
-          94,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Syahrini Melani, mau komplain pengiriman ke Jl. Pasirkoja No. 940, Serang, SN 56981 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          20,
-          "PERSON"
-        ],
-        [
-          49,
-          88,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Jalan M.T Haryono No. 3, Palangkaraya, YO 95148 apakah tercover layanan Shipvue? Penerima Ratih Nainggolan.",
-    {
-      "entities": [
-        [
-          107,
-          123,
-          "PERSON"
-        ],
-        [
-          17,
-          64,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Jalan Kebonjati No. 62, Padang, AC 43699 tidak ditemukan, padahal Salwa Wasita ada di rumah.",
-    {
-      "entities": [
-        [
-          86,
-          98,
-          "PERSON"
-        ],
-        [
-          20,
-          60,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Galur Hastuti, M.M. dari Jalan Kapten Muslihat No. 489, Bekasi, KU 33200, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          36,
-          "PERSON"
-        ],
-        [
-          42,
-          89,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Jaswadi Suryatmi dari Jalan Sukajadi No. 63, Sungai Penuh, Aceh 63287, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          33,
-          "PERSON"
-        ],
-        [
-          39,
-          86,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Kalim Prayoga di Gg. Otto Iskandardinata No. 8, Tomohon, Sulawesi Tengah 87277 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          26,
-          "PERSON"
-        ],
-        [
-          30,
-          91,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Umi Prayoga dari Gg. Cempaka No. 434, Lubuklinggau, JK 23623, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          28,
-          "PERSON"
-        ],
-        [
-          34,
-          77,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Tolong cek resi untuk penerima Heryanto Wasita di Jalan Laswi No. 69, Tual, PB 05466.",
-    {
-      "entities": [
-        [
-          31,
-          46,
-          "PERSON"
-        ],
-        [
-          50,
-          84,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya H. Oman Palastri dari Gg. Bangka Raya No. 06, Surakarta, Riau 72980, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          33,
-          "PERSON"
-        ],
-        [
-          39,
-          84,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Rika Pratiwi di Jalan Rawamangun No. 046, Jambi, Sulawesi Tenggara 56464 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          25,
-          "PERSON"
-        ],
-        [
-          29,
-          85,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Puti Nadine Budiyanto, M.Pd, mau komplain pengiriman ke Jl. Suryakencana No. 033, Solok, Jawa Tengah 27193 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          32,
-          "PERSON"
-        ],
-        [
-          61,
-          111,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Tolong cek resi untuk penerima Tira Rajasa di Jl. Rajawali Timur No. 904, Mojokerto, KS 93149.",
-    {
-      "entities": [
-        [
-          31,
-          42,
-          "PERSON"
-        ],
-        [
-          46,
-          93,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Jalan S. Parman No. 5, Padangpanjang, SB 65726 atas nama R. Raden Pratiwi, S.Gz?",
-    {
-      "entities": [
-        [
-          87,
-          109,
-          "PERSON"
-        ],
-        [
-          30,
-          76,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Oskar Nurdiyanti di Gang Kutai No. 53, Kota Administrasi Jakarta Utara, ST 79965 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          29,
-          "PERSON"
-        ],
-        [
-          33,
-          93,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Tolong cek resi untuk penerima Jumari Simbolon di Gg. Pasirkoja No. 49, Sabang, Aceh 13678.",
-    {
-      "entities": [
-        [
-          31,
-          46,
-          "PERSON"
-        ],
-        [
-          50,
-          90,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Gg. Merdeka No. 34, Parepare, SU 68557 apakah tercover layanan Shipvue? Penerima Sutan Muhammad Kusmawati, M.Kom..",
-    {
-      "entities": [
-        [
-          98,
-          130,
-          "PERSON"
-        ],
-        [
-          17,
-          55,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Ina Ramadan di Gg. Gedebage Selatan No. 8, Depok, Kalimantan Tengah 49894 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          24,
-          "PERSON"
-        ],
-        [
-          28,
-          86,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Rafi Nababan, mau komplain pengiriman ke Jalan Rajawali Barat No. 824, Banjarbaru, LA 71094 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          17,
-          "PERSON"
-        ],
-        [
-          46,
-          96,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Natalia Farida di Gg. Ronggowarsito No. 167, Samarinda, BE 29413 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          27,
-          "PERSON"
-        ],
-        [
-          31,
-          77,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Gang Rajawali Barat No. 6, Salatiga, Bengkulu 33412 apakah tercover layanan Shipvue? Penerima Kalim Agustina.",
-    {
-      "entities": [
-        [
-          111,
-          125,
-          "PERSON"
-        ],
-        [
-          17,
-          68,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama Cawuk Puspasari yang dikirim ke Gg. Cihampelas No. 9, Kupang, Banten 44713 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          36,
-          "PERSON"
-        ],
-        [
-          53,
-          95,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama Winda Utami yang dikirim ke Jl. H.J Maemunah No. 421, Cimahi, Maluku 71746 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          32,
-          "PERSON"
-        ],
-        [
-          49,
-          95,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Jl. Bangka Raya No. 5, Bandar Lampung, JK 99049 apakah tercover layanan Shipvue? Penerima Olivia Namaga.",
-    {
-      "entities": [
-        [
-          107,
-          120,
-          "PERSON"
-        ],
-        [
-          17,
-          64,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Jalan Indragiri No. 71, Malang, SR 51256 tidak ditemukan, padahal Prabowo Natsir ada di rumah.",
-    {
-      "entities": [
-        [
-          86,
-          100,
-          "PERSON"
-        ],
-        [
-          20,
-          60,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama Nilam Suwarno, S.Sos yang dikirim ke Gg. Pasir Koja No. 16, Surabaya, Sulawesi Tenggara 03859 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          41,
-          "PERSON"
-        ],
-        [
-          58,
-          114,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Gg. Cempaka No. 7, Bandar Lampung, Kalimantan Utara 48086 apakah tercover layanan Shipvue? Penerima drg. Luis Handayani, S.Gz.",
-    {
-      "entities": [
-        [
-          117,
-          142,
-          "PERSON"
-        ],
-        [
-          17,
-          74,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Darmanto Latupono dari Gg. PHH. Mustofa No. 4, Pariaman, SU 78263, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          34,
-          "PERSON"
-        ],
-        [
-          40,
-          82,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Gang S. Parman No. 04, Semarang, Sumatera Barat 78755 tidak ditemukan, padahal Drs. Ulva Mansur ada di rumah.",
-    {
-      "entities": [
-        [
-          99,
-          115,
-          "PERSON"
-        ],
-        [
-          20,
-          73,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik KH. Kenari Waluyo di Jl. Joyoboyo No. 36, Lubuklinggau, SU 62702 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          30,
-          "PERSON"
-        ],
-        [
-          34,
-          77,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Tolong cek resi untuk penerima Drs. Gamblang Januar di Jalan Ir. H. Djuanda No. 21, Kota Administrasi Jakarta Selatan, NB 15865.",
-    {
-      "entities": [
-        [
-          31,
-          51,
-          "PERSON"
-        ],
-        [
-          55,
-          127,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Gg. Moch. Ramdan No. 1, Bengkulu, Gorontalo 24005 apakah tercover layanan Shipvue? Penerima Nasim Laksita, M.Pd.",
-    {
-      "entities": [
-        [
-          109,
-          128,
-          "PERSON"
-        ],
-        [
-          17,
-          66,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Dt. Emil Tamba, S.I.Kom di Gg. Ahmad Yani No. 2, Cirebon, JK 93792 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          36,
-          "PERSON"
-        ],
-        [
-          40,
-          79,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Jalan Rawamangun No. 82, Palembang, NT 64743 apakah tercover layanan Shipvue? Penerima Jail Uyainah.",
-    {
-      "entities": [
-        [
-          104,
-          116,
-          "PERSON"
-        ],
-        [
-          17,
-          61,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Zulaikha Laksmiwati di Gang Joyoboyo No. 40, Kota Administrasi Jakarta Utara, Aceh 97439 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          32,
-          "PERSON"
-        ],
-        [
-          36,
-          101,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Tgk. Darmaji Usada, S.Kom di Jl. Rajawali Timur No. 09, Tegal, JB 45623 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          38,
-          "PERSON"
-        ],
-        [
-          42,
-          84,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Gg. Ronggowarsito No. 51, Batu, JT 68516 tidak ditemukan, padahal Panji Namaga ada di rumah.",
-    {
-      "entities": [
-        [
-          86,
-          98,
-          "PERSON"
-        ],
-        [
-          20,
-          60,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama Eman Nasyiah yang dikirim ke Gang Indragiri No. 51, Parepare, Bali 93174 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          33,
-          "PERSON"
-        ],
-        [
-          50,
-          93,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Hasan Latupono, S.E.I, mau komplain pengiriman ke Gang Gardujati No. 382, Palu, Papua 92617 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          26,
-          "PERSON"
-        ],
-        [
-          55,
-          96,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Gang Moch. Toha No. 15, Banjarmasin, RI 31713 tidak ditemukan, padahal drg. Indah Firmansyah ada di rumah.",
-    {
-      "entities": [
-        [
-          91,
-          112,
-          "PERSON"
-        ],
-        [
-          20,
-          65,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Jl. Ahmad Yani No. 183, Kediri, Nusa Tenggara Barat 90422 tidak ditemukan, padahal Manah Riyanti, S.Ked ada di rumah.",
-    {
-      "entities": [
-        [
-          103,
-          123,
-          "PERSON"
-        ],
-        [
-          20,
-          77,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Jl. Setiabudhi No. 950, Kota Administrasi Jakarta Selatan, Bengkulu 68117 apakah tercover layanan Shipvue? Penerima T. Raditya Natsir.",
-    {
-      "entities": [
-        [
-          133,
-          150,
-          "PERSON"
-        ],
-        [
-          17,
-          90,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Jl. Kapten Muslihat No. 4, Sukabumi, Bali 76617 atas nama Victoria Tarihoran?",
-    {
-      "entities": [
-        [
-          88,
-          106,
-          "PERSON"
-        ],
-        [
-          30,
-          77,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Tolong cek resi untuk penerima Maimunah Hidayanto, S.Pt di Jl. Pelajar Pejuang No. 9, Metro, SU 78961.",
-    {
-      "entities": [
-        [
-          31,
-          55,
-          "PERSON"
-        ],
-        [
-          59,
-          101,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Jalan Tubagus Ismail No. 76, Tegal, Gorontalo 65452 tidak ditemukan, padahal H. Balijan Yolanda, M.Pd ada di rumah.",
-    {
-      "entities": [
-        [
-          97,
-          121,
-          "PERSON"
-        ],
-        [
-          20,
-          71,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama Virman Kusmawati, S.Pt yang dikirim ke Gg. Dipenogoro No. 5, Sabang, Bengkulu 16560 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          43,
-          "PERSON"
-        ],
-        [
-          60,
-          104,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Jl. Kapten Muslihat No. 31, Sabang, PA 49368 apakah tercover layanan Shipvue? Penerima Rahayu Saragih.",
-    {
-      "entities": [
-        [
-          104,
-          118,
-          "PERSON"
-        ],
-        [
-          17,
-          61,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Jl. Pasteur No. 4, Malang, Aceh 29612 tidak ditemukan, padahal Drs. Luwes Wulandari, M.Pd ada di rumah.",
-    {
-      "entities": [
-        [
-          83,
-          109,
-          "PERSON"
-        ],
-        [
-          20,
-          57,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Gang Sadang Serang No. 545, Banjarbaru, Jawa Tengah 90147 atas nama Siska Dabukke, S.Pt?",
-    {
-      "entities": [
-        [
-          98,
-          117,
-          "PERSON"
-        ],
-        [
-          30,
-          87,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Irwan Laksita, M.Ak dari Jalan Monginsidi No. 561, Tangerang, SB 03690, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          36,
-          "PERSON"
-        ],
-        [
-          42,
-          87,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Damu Sihombing di Gang Raya Ujungberung No. 076, Blitar, Papua Barat 88516 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          27,
-          "PERSON"
-        ],
-        [
-          31,
-          87,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Gang KH Amin Jasuta No. 41, Banda Aceh, Maluku Utara 97516 atas nama Cut Maya Budiyanto, M.M.?",
-    {
-      "entities": [
-        [
-          99,
-          123,
-          "PERSON"
-        ],
-        [
-          30,
-          88,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Gang Sadang Serang No. 521, Pontianak, SS 55231 apakah tercover layanan Shipvue? Penerima Puti Hesti Fujiati, M.Farm.",
-    {
-      "entities": [
-        [
-          107,
-          133,
-          "PERSON"
-        ],
-        [
-          17,
-          64,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Jl. Medokan Ayu No. 79, Tangerang Selatan, Maluku Utara 27177 atas nama Edi Napitupulu?",
-    {
-      "entities": [
-        [
-          102,
-          116,
-          "PERSON"
-        ],
-        [
-          30,
-          91,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Gg. Rawamangun No. 00, Kotamobagu, DI Yogyakarta 99867 atas nama Gadang Saefullah, M.Farm?",
-    {
-      "entities": [
-        [
-          95,
-          119,
-          "PERSON"
-        ],
-        [
-          30,
-          84,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Gang S. Parman No. 071, Tasikmalaya, JK 03778 apakah tercover layanan Shipvue? Penerima Drs. Widya Gunarto.",
-    {
-      "entities": [
-        [
-          105,
-          123,
-          "PERSON"
-        ],
-        [
-          17,
-          62,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama Drs. Capa Utama yang dikirim ke Gang Sadang Serang No. 9, Sorong, NB 51864 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          36,
-          "PERSON"
-        ],
-        [
-          53,
-          95,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Jl. Sentot Alibasa No. 62, Lhokseumawe, Papua Barat 28168 tidak ditemukan, padahal Tari Wahyuni ada di rumah.",
-    {
-      "entities": [
-        [
-          103,
-          115,
-          "PERSON"
-        ],
-        [
-          20,
-          77,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Gg. Rajiman No. 322, Kupang, GO 59296 atas nama Anita Tarihoran?",
-    {
-      "entities": [
-        [
-          78,
-          93,
-          "PERSON"
-        ],
-        [
-          30,
           67,
           "ADDRESS"
         ]
@@ -1343,33 +3805,33 @@
     }
   ],
   [
-    "Apakah bisa jemput paket dari Gg. Siliwangi No. 3, Singkawang, Lampung 38347 atas nama Carub Najmudin?",
+    "woy paket dariati melani nyasar ke jl. sukajadi no. 98, kotamobagu nih!",
     {
       "entities": [
         [
-          87,
-          101,
+          10,
+          24,
           "PERSON"
         ],
         [
-          30,
-          76,
+          35,
+          66,
           "ADDRESS"
         ]
       ]
     }
   ],
   [
-    "Alamat tujuan di Gang S. Parman No. 6, Dumai, JB 07581 apakah tercover layanan Shipvue? Penerima R.A. Kartika Wastuti, M.Farm.",
+    "paket an. rina hakim, s.e. belum sampe ke sungai penuh",
     {
       "entities": [
         [
-          97,
-          125,
+          10,
+          26,
           "PERSON"
         ],
         [
-          17,
+          42,
           54,
           "ADDRESS"
         ]
@@ -1377,143 +3839,416 @@
     }
   ],
   [
-    "Apakah bisa jemput paket dari Gg. Cihampelas No. 2, Bekasi, KI 50606 atas nama Zulfa Maryati, S.IP?",
-    {
-      "entities": [
-        [
-          79,
-          98,
-          "PERSON"
-        ],
-        [
-          30,
-          68,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Jl. Raya Setiabudhi No. 522, Kotamobagu, Sulawesi Utara 77901 atas nama Tgk. Daryani Winarno?",
-    {
-      "entities": [
-        [
-          102,
-          122,
-          "PERSON"
-        ],
-        [
-          30,
-          91,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Gg. Moch. Toha No. 10, Padangpanjang, Sulawesi Tenggara 17980 atas nama Edi Pratama?",
-    {
-      "entities": [
-        [
-          102,
-          113,
-          "PERSON"
-        ],
-        [
-          30,
-          91,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama Kamidin Permata, S.H. yang dikirim ke Jalan Kendalsari No. 39, Denpasar, DKI Jakarta 18888 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          42,
-          "PERSON"
-        ],
-        [
-          59,
-          111,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Dt. Harsaya Halimah dari Gang Asia Afrika No. 15, Tegal, Gorontalo 20585, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          36,
-          "PERSON"
-        ],
-        [
-          42,
-          89,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Hj. Ellis Hariyah, M.Kom., mau komplain pengiriman ke Gg. BKR No. 30, Banjar, Maluku Utara 86874 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          30,
-          "PERSON"
-        ],
-        [
-          59,
-          101,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Jalan Suryakencana No. 41, Palangkaraya, Riau 65277 atas nama Parman Yuliarti?",
-    {
-      "entities": [
-        [
-          92,
-          107,
-          "PERSON"
-        ],
-        [
-          30,
-          81,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Wirda Maryati di Jalan Bangka Raya No. 2, Madiun, GO 54479 statusnya stuck di gudang.",
+    "Posisi paket Candrakanta Irawan sekarang dimana ya? tujuannya ke Gang Surapati No. 3, Ternate, YO 84895",
     {
       "entities": [
         [
           13,
-          26,
+          31,
           "PERSON"
         ],
         [
-          30,
-          71,
+          65,
+          103,
           "ADDRESS"
         ]
       ]
     }
   ],
   [
-    "Paket saya atas nama Maria Marbun, M.M. yang dikirim ke Gg. Kendalsari No. 40, Surakarta, RI 82029 kok belum sampai?",
+    "rumah saya di Gang Joyoboyo No. 426, Sabang, DI Yogyakarta 51848, tolong dicek a.n Yulia Saefullah",
+    {
+      "entities": [
+        [
+          83,
+          98,
+          "PERSON"
+        ],
+        [
+          14,
+          64,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "min, jalan pasirkoja no. 416, tangerang bisa cod gak? an ir. hafshah handayani, s.sos.",
+    {
+      "entities": [
+        [
+          57,
+          85,
+          "PERSON"
+        ],
+        [
+          5,
+          39,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Woy paket Yuni Siregar, S.Pt nyasar ke Kediri nih!",
+    {
+      "entities": [
+        [
+          10,
+          28,
+          "PERSON"
+        ],
+        [
+          39,
+          45,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Rafid Prayoga disini. Paket ke Jl. Ciwastra No. 7, Tual, BT 59579 aman?",
+    {
+      "entities": [
+        [
+          0,
+          13,
+          "PERSON"
+        ],
+        [
+          31,
+          65,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama tgk. nurul najmudin, m.ti. yang dikirim ke gang antapani lama no. 369 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          47,
+          "PERSON"
+        ],
+        [
+          64,
+          90,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "apakah bisa jemput paket dari gang k.h. wahid hasyim no. 2, samarinda atas nama gamani tarihoran?",
+    {
+      "entities": [
+        [
+          80,
+          96,
+          "PERSON"
+        ],
+        [
+          30,
+          69,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "posisi paket dartono januar, s.t. sekarang dimana ya? tujuannya ke gang pasir koja no. 9",
+    {
+      "entities": [
+        [
+          13,
+          33,
+          "PERSON"
+        ],
+        [
+          67,
+          88,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat malang tidak ditemukan, padahal hasta januar ada di rumah.",
+    {
+      "entities": [
+        [
+          52,
+          64,
+          "PERSON"
+        ],
+        [
+          20,
+          26,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Barang saya hancur lebur saat sampai.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "min, sorong bisa cod gak? an hendra maheswara.",
+    {
+      "entities": [
+        [
+          29,
+          45,
+          "PERSON"
+        ],
+        [
+          5,
+          11,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kirim ke Jalan Raya Setiabudhi No. 44, Kota Administrasi Jakarta Timur, Sulawesi Tengah 98762 ya min, titip ke Ir. Latika Hidayanto.",
+    {
+      "entities": [
+        [
+          111,
+          131,
+          "PERSON"
+        ],
+        [
+          9,
+          93,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket an. Sabar Damanik belum sampe ke Jl. Suryakencana No. 43",
+    {
+      "entities": [
+        [
+          10,
+          23,
+          "PERSON"
+        ],
+        [
+          39,
+          62,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah bisa jemput paket dari Palu atas nama Okto Suryono?",
+    {
+      "entities": [
+        [
+          45,
+          57,
+          "PERSON"
+        ],
+        [
+          30,
+          34,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama pangestu usada, m.farm yang dikirim ke gang r.e martadinata no. 174, padang sidempuan, bb 40082 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          43,
+          "PERSON"
+        ],
+        [
+          60,
+          116,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Gang Antapani Lama No. 49, Ambon, Papua 68663 bisa cod gak? an Irma Halimah.",
+    {
+      "entities": [
+        [
+          68,
+          80,
+          "PERSON"
+        ],
+        [
+          5,
+          50,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "saya nasrullah yuliarti, mau komplain pengiriman ke binjai yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          23,
+          "PERSON"
+        ],
+        [
+          52,
+          58,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Barang saya hancur lebur saat sampai.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima jaga safitri, m.m. di jl. yos sudarso no. 564.",
+    {
+      "entities": [
+        [
+          31,
+          49,
+          "PERSON"
+        ],
+        [
+          53,
+          76,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya tidak terima kalau barangnya pecah.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "paket saya atas nama kh. jamil wahyudin, m.m. yang dikirim ke jalan bkr no. 718 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          45,
+          "PERSON"
+        ],
+        [
+          62,
+          79,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Paket saya atas nama Daniswara Kusmawati, S.Sos yang dikirim ke Subulussalam kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          47,
+          "PERSON"
+        ],
+        [
+          64,
+          76,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Posisi paket Jane Budiman sekarang dimana ya? tujuannya ke Jl. Setiabudhi No. 2",
+    {
+      "entities": [
+        [
+          13,
+          25,
+          "PERSON"
+        ],
+        [
+          59,
+          79,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Paket saya atas nama Paulin Kurniawan, S.E.I yang dikirim ke Sabang kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          44,
+          "PERSON"
+        ],
+        [
+          61,
+          67,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kirim ke gang rawamangun no. 98, batam, sumatera utara 74485 ya min, titip ke puput lestari.",
+    {
+      "entities": [
+        [
+          78,
+          91,
+          "PERSON"
+        ],
+        [
+          9,
+          60,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "ade uyainah disini. paket ke padang sidempuan aman?",
+    {
+      "entities": [
+        [
+          0,
+          11,
+          "PERSON"
+        ],
+        [
+          29,
+          45,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama galur kusumo, s.ip yang dikirim ke mataram kok belum sampai?",
     {
       "entities": [
         [
@@ -1523,176 +4258,6 @@
         ],
         [
           56,
-          98,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Gg. Siliwangi No. 90, Tangerang, Sulawesi Tengah 57192 tidak ditemukan, padahal Purwa Farida, S.Gz ada di rumah.",
-    {
-      "entities": [
-        [
-          100,
-          118,
-          "PERSON"
-        ],
-        [
-          20,
-          74,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Tgk. Hasta Sihotang, mau komplain pengiriman ke Jl. K.H. Wahid Hasyim No. 86, Kota Administrasi Jakarta Selatan, BB 39473 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          24,
-          "PERSON"
-        ],
-        [
-          53,
-          126,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Cahya Hidayanto di Jalan Raya Setiabudhi No. 5, Purwokerto, LA 22583 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          28,
-          "PERSON"
-        ],
-        [
-          32,
-          81,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Tolong cek resi untuk penerima Daliono Mandala di Gg. M.H Thamrin No. 5, Purwokerto, Jawa Barat 14678.",
-    {
-      "entities": [
-        [
-          31,
-          46,
-          "PERSON"
-        ],
-        [
-          50,
-          101,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Jalan Cihampelas No. 85, Purwokerto, Kalimantan Barat 68018 atas nama Vivi Wasita?",
-    {
-      "entities": [
-        [
-          100,
-          111,
-          "PERSON"
-        ],
-        [
-          30,
-          89,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Gadang Marbun, mau komplain pengiriman ke Gg. M.T Haryono No. 14, Subulussalam, Kepulauan Riau 49818 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          18,
-          "PERSON"
-        ],
-        [
-          47,
-          105,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Tolong cek resi untuk penerima Cawisadi Rahayu, M.Farm di Jalan Astana Anyar No. 094, Yogyakarta, Sulawesi Barat 78447.",
-    {
-      "entities": [
-        [
-          31,
-          54,
-          "PERSON"
-        ],
-        [
-          58,
-          118,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Jl. Jamika No. 67, Gorontalo, NB 55562 apakah tercover layanan Shipvue? Penerima Reksa Waskita.",
-    {
-      "entities": [
-        [
-          98,
-          111,
-          "PERSON"
-        ],
-        [
-          17,
-          55,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama Tgk. Kamidin Purwanti, S.IP yang dikirim ke Jalan Pasteur No. 32, Banjarbaru, LA 96325 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          48,
-          "PERSON"
-        ],
-        [
-          65,
-          107,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Gang Yos Sudarso No. 168, Kendari, KT 00479 tidak ditemukan, padahal dr. Fitriani Manullang ada di rumah.",
-    {
-      "entities": [
-        [
-          89,
-          111,
-          "PERSON"
-        ],
-        [
-          20,
           63,
           "ADDRESS"
         ]
@@ -1700,492 +4265,16 @@
     }
   ],
   [
-    "Apakah bisa jemput paket dari Jalan Pasirkoja No. 5, Mataram, Banten 09835 atas nama Hj. Samiah Halimah, S.Pd?",
+    "pagi, saya mau lapor barang rusak atas nama Luluh Hidayanto di Gg. Ciumbuleuit No. 811",
     {
       "entities": [
         [
-          85,
-          109,
-          "PERSON"
-        ],
-        [
-          30,
-          74,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik T. Bagya Winarno di Jl. Dipenogoro No. 55, Tomohon, JT 98680 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          29,
-          "PERSON"
-        ],
-        [
-          33,
-          73,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Aris Mandala dari Jalan Rungkut Industri No. 2, Singkawang, MU 69495, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          29,
-          "PERSON"
-        ],
-        [
-          35,
-          85,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama Dr. Kasiran Lestari yang dikirim ke Gg. Rumah Sakit No. 1, Sawahlunto, MA 97499 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          40,
-          "PERSON"
-        ],
-        [
-          57,
-          100,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Jalan Pacuan Kuda No. 913, Palembang, MU 26368 tidak ditemukan, padahal Najam Habibi ada di rumah.",
-    {
-      "entities": [
-        [
-          92,
-          104,
-          "PERSON"
-        ],
-        [
-          20,
-          66,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama Drs. Viman Halimah, S.Gz yang dikirim ke Gang Ahmad Dahlan No. 52, Prabumulih, Nusa Tenggara Barat 49733 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          45,
-          "PERSON"
-        ],
-        [
-          62,
-          125,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Jalan Rajiman No. 75, Kotamobagu, Jambi 65240 apakah tercover layanan Shipvue? Penerima Puti Salahudin.",
-    {
-      "entities": [
-        [
-          105,
-          119,
-          "PERSON"
-        ],
-        [
-          17,
-          62,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Gang Lembong No. 848, Bogor, GO 30833 tidak ditemukan, padahal Tania Hutapea ada di rumah.",
-    {
-      "entities": [
-        [
-          83,
-          96,
-          "PERSON"
-        ],
-        [
-          20,
-          57,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Baktianto Zulkarnain di Jl. Abdul Muis No. 2, Sungai Penuh, SU 34540 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          33,
-          "PERSON"
-        ],
-        [
-          37,
-          81,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama R. Martana Pertiwi, S.H. yang dikirim ke Jalan BKR No. 72, Bandung, Aceh 99154 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          45,
-          "PERSON"
-        ],
-        [
-          62,
-          99,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Syahrini Palastri, mau komplain pengiriman ke Gang Kebonjati No. 527, Tasikmalaya, KB 54932 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          22,
-          "PERSON"
-        ],
-        [
-          51,
-          96,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Hj. Latika Aryani, mau komplain pengiriman ke Jalan K.H. Wahid Hasyim No. 753, Kota Administrasi Jakarta Selatan, PB 74549 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          22,
-          "PERSON"
-        ],
-        [
-          51,
-          127,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama Queen Anggriawan, S.T. yang dikirim ke Jl. Rawamangun No. 26, Tanjungbalai, JA 59332 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          43,
-          "PERSON"
-        ],
-        [
-          60,
-          105,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Eva Hasanah dari Jalan Pacuan Kuda No. 9, Pontianak, ST 19108, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          28,
-          "PERSON"
-        ],
-        [
-          34,
-          78,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Tolong cek resi untuk penerima Sutan Kemal Nasyiah di Gang Gardujati No. 3, Bekasi, Sumatera Selatan 07286.",
-    {
-      "entities": [
-        [
-          31,
-          50,
-          "PERSON"
-        ],
-        [
-          54,
-          106,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Gg. Pasir Koja No. 391, Pagaralam, NT 80170 atas nama Padmi Hakim?",
-    {
-      "entities": [
-        [
-          84,
-          95,
-          "PERSON"
-        ],
-        [
-          30,
-          73,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Gang Cihampelas No. 61, Sungai Penuh, Nusa Tenggara Timur 28682 tidak ditemukan, padahal Laila Najmudin ada di rumah.",
-    {
-      "entities": [
-        [
-          109,
-          123,
-          "PERSON"
-        ],
-        [
-          20,
-          83,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Gang Moch. Ramdan No. 752, Depok, JA 69033 apakah tercover layanan Shipvue? Penerima Genta Adriansyah, S.Ked.",
-    {
-      "entities": [
-        [
-          102,
-          125,
-          "PERSON"
-        ],
-        [
-          17,
+          44,
           59,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Baktianto Riyanti di Jl. Cihampelas No. 73, Tomohon, Bengkulu 84395 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          30,
           "PERSON"
         ],
         [
-          34,
-          80,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Ir. Vera Wulandari di Jalan Kapten Muslihat No. 3, Langsa, KR 89268 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          31,
-          "PERSON"
-        ],
-        [
-          35,
-          80,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Alamat tujuan di Gang Jakarta No. 62, Kendari, KI 27086 apakah tercover layanan Shipvue? Penerima Alika Situmorang.",
-    {
-      "entities": [
-        [
-          98,
-          114,
-          "PERSON"
-        ],
-        [
-          17,
-          55,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Puti Nuraini, mau komplain pengiriman ke Gg. Laswi No. 17, Bekasi, Kalimantan Selatan 46990 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          17,
-          "PERSON"
-        ],
-        [
-          46,
-          96,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Puti Fitriani Rahmawati, M.Pd di Gg. Rajawali Barat No. 331, Kota Administrasi Jakarta Barat, Kalimantan Tengah 38546 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          42,
-          "PERSON"
-        ],
-        [
-          46,
-          130,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Barang milik Patricia Yulianti di Gang Monginsidi No. 71, Tual, MU 55609 statusnya stuck di gudang.",
-    {
-      "entities": [
-        [
-          13,
-          30,
-          "PERSON"
-        ],
-        [
-          34,
-          72,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Kurir bilang alamat Jalan Kiaracondong No. 36, Payakumbuh, NB 77725 tidak ditemukan, padahal R.A. Ulya Maulana, S.Ked ada di rumah.",
-    {
-      "entities": [
-        [
-          93,
-          117,
-          "PERSON"
-        ],
-        [
-          20,
-          67,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Tolong cek resi untuk penerima Cahyono Palastri di Jl. Ciumbuleuit No. 0, Padang Sidempuan, JB 12038.",
-    {
-      "entities": [
-        [
-          31,
-          47,
-          "PERSON"
-        ],
-        [
-          51,
-          100,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Kasiyah Halim dari Jl. Jayawijaya No. 6, Banda Aceh, SU 84086, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          30,
-          "PERSON"
-        ],
-        [
-          36,
-          78,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya R.M. Balamantri Kuswoyo, M.TI., mau komplain pengiriman ke Gg. Setiabudhi No. 61, Padang, Sulawesi Tenggara 34101 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          35,
-          "PERSON"
-        ],
-        [
-          64,
-          118,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Kezia Waluyo, mau komplain pengiriman ke Jl. Ciwastra No. 65, Pontianak, BT 39740 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          17,
-          "PERSON"
-        ],
-        [
-          46,
+          63,
           86,
           "ADDRESS"
         ]
@@ -2193,50 +4282,181 @@
     }
   ],
   [
-    "Apakah bisa jemput paket dari Jalan Laswi No. 2, Batu, Maluku 93968 atas nama Mahdi Setiawan?",
+    "Gina Nasyidah, S.Sos disini. Paket ke Jl. Stasiun Wonokromo No. 8, Tidore Kepulauan, Gorontalo 76122 aman?",
     {
       "entities": [
         [
-          78,
-          92,
-          "PERSON"
-        ],
-        [
-          30,
-          67,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Kiandra Mandala, mau komplain pengiriman ke Jl. Bangka Raya No. 159, Madiun, Bali 77358 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
+          0,
           20,
           "PERSON"
         ],
         [
-          49,
-          92,
+          38,
+          100,
           "ADDRESS"
         ]
       ]
     }
   ],
   [
-    "Halo admin, saya Mala Nashiruddin dari Jalan Ciumbuleuit No. 426, Ternate, PB 51104, mau tanya ongkir.",
+    "dr. johan sirait disini. paket ke gang cihampelas no. 60, tebingtinggi aman?",
     {
       "entities": [
         [
-          17,
-          33,
+          0,
+          16,
+          "PERSON"
+        ],
+        [
+          34,
+          70,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir tidak sopan saat antar barang.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "kurir bilang alamat gg. siliwangi no. 3, kediri tidak ditemukan, padahal edi riyanti ada di rumah.",
+    {
+      "entities": [
+        [
+          73,
+          84,
+          "PERSON"
+        ],
+        [
+          20,
+          47,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "woy paket yessi salahudin nyasar ke jl. raya ujungberung no. 27, serang, maluku 96105 nih!",
+    {
+      "entities": [
+        [
+          10,
+          25,
+          "PERSON"
+        ],
+        [
+          36,
+          85,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya tidak terima kalau barangnya pecah.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima yuliana fujiati di jl. cikapayang no. 6, palopo.",
+    {
+      "entities": [
+        [
+          31,
+          46,
+          "PERSON"
+        ],
+        [
+          50,
+          78,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "woy paket drs. kamal mayasari, s.pt nyasar ke gang ir. h. djuanda no. 517, purwokerto, riau 16862 nih!",
+    {
+      "entities": [
+        [
+          10,
+          35,
+          "PERSON"
+        ],
+        [
+          46,
+          97,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Woy paket Hj. Aisyah Samosir nyasar ke Gg. Gardujati No. 77 nih!",
+    {
+      "entities": [
+        [
+          10,
+          28,
           "PERSON"
         ],
         [
           39,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "rumah saya di jalan rawamangun no. 0, tolong dicek a.n gamblang pranowo",
+    {
+      "entities": [
+        [
+          55,
+          71,
+          "PERSON"
+        ],
+        [
+          14,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "saya harsanto wijayanti, mau komplain pengiriman ke denpasar yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          23,
+          "PERSON"
+        ],
+        [
+          52,
+          60,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Posisi paket Jais Haryanti sekarang dimana ya? tujuannya ke Gang Astana Anyar No. 4",
+    {
+      "entities": [
+        [
+          13,
+          26,
+          "PERSON"
+        ],
+        [
+          60,
           83,
           "ADDRESS"
         ]
@@ -2244,16 +4464,39 @@
     }
   ],
   [
-    "Paket saya atas nama Karen Saputra yang dikirim ke Jl. Bangka Raya No. 88, Bima, Bali 58199 kok belum sampai?",
+    "paket an. cakrawangsa siregar belum sampe ke probolinggo",
     {
       "entities": [
         [
-          21,
-          34,
+          10,
+          29,
           "PERSON"
         ],
         [
-          51,
+          45,
+          56,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Halo admin, saya mau tanya resi saya kok tidak bergerak?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "danang yolanda disini. paket ke gg. ahmad dahlan no. 629, lubuklinggau, di yogyakarta 25205 aman?",
+    {
+      "entities": [
+        [
+          0,
+          14,
+          "PERSON"
+        ],
+        [
+          32,
           91,
           "ADDRESS"
         ]
@@ -2261,33 +4504,114 @@
     }
   ],
   [
-    "Paket saya atas nama Tgk. Saka Winarno, S.Ked yang dikirim ke Jalan Stasiun Wonokromo No. 982, Cimahi, JB 44721 kok belum sampai?",
+    "Pagi, saya sudah menunggu 3 hari.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Apakah saya bisa ambil paket sendiri di gudang?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Alamat: Gg. Suryakencana No. 26, Pasuruan. Penerima: Laras Sihombing. Cek dong.",
     {
       "entities": [
         [
-          21,
-          45,
+          53,
+          68,
           "PERSON"
         ],
         [
-          62,
-          111,
+          8,
+          41,
           "ADDRESS"
         ]
       ]
     }
   ],
   [
-    "Kurir bilang alamat Jalan Siliwangi No. 37, Palu, GO 40659 tidak ditemukan, padahal Ibrahim Saefullah ada di rumah.",
+    "Saya mau refund uang saya segera.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Kirim ke Jalan W.R. Supratman No. 09 ya min, titip ke Dina Marpaung.",
     {
       "entities": [
         [
-          84,
-          101,
+          54,
+          67,
+          "PERSON"
+        ],
+        [
+          9,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Halo admin, saya mau tanya resi saya kok tidak bergerak?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "kurir bilang alamat gang peta no. 26 tidak ditemukan, padahal yunita wibowo, s.psi ada di rumah.",
+    {
+      "entities": [
+        [
+          62,
+          82,
           "PERSON"
         ],
         [
           20,
+          36,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "saya rahmi habibi, mau komplain pengiriman ke gg. dipatiukur no. 52 yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          17,
+          "PERSON"
+        ],
+        [
+          46,
+          67,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kenapa ongkir ke tempat saya mahal sekali?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Alamat: Jalan Ahmad Dahlan No. 6, Metro, Papua Barat 25922. Penerima: Uchita Maheswara, S.Pt. Cek dong.",
+    {
+      "entities": [
+        [
+          70,
+          92,
+          "PERSON"
+        ],
+        [
+          8,
           58,
           "ADDRESS"
         ]
@@ -2295,135 +4619,73 @@
     }
   ],
   [
-    "Alamat tujuan di Jalan Rajawali Barat No. 93, Lubuklinggau, KB 54793 apakah tercover layanan Shipvue? Penerima Wani Sitompul.",
+    "posisi paket r. elma habibi, s.farm sekarang dimana ya? tujuannya ke sibolga",
     {
       "entities": [
         [
-          111,
-          124,
-          "PERSON"
-        ],
-        [
-          17,
-          68,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Keisha Setiawan, mau komplain pengiriman ke Jl. Kutai No. 2, Tegal, SG 74167 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          20,
-          "PERSON"
-        ],
-        [
-          49,
-          81,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Tolong cek resi untuk penerima Mahesa Sihombing di Gg. Sukabumi No. 797, Prabumulih, Sumatera Selatan 80589.",
-    {
-      "entities": [
-        [
-          31,
-          47,
-          "PERSON"
-        ],
-        [
-          51,
-          107,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Jl. Ahmad Yani No. 6, Palangkaraya, Gorontalo 14388 atas nama Vinsen Hutasoit, S.IP?",
-    {
-      "entities": [
-        [
-          92,
-          113,
-          "PERSON"
-        ],
-        [
-          30,
-          81,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Drs. Malik Permata dari Gang Rawamangun No. 9, Malang, Bali 14611, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
+          13,
           35,
           "PERSON"
         ],
         [
-          41,
-          82,
+          69,
+          76,
           "ADDRESS"
         ]
       ]
     }
   ],
   [
-    "Saya R. Kamaria Saragih, S.Psi, mau komplain pengiriman ke Gang Waringin No. 775, Langsa, BT 05123 yang rusak.",
+    "Barang saya hancur lebur saat sampai.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Kurir bilang alamat Jl. BKR No. 9, Sibolga tidak ditemukan, padahal Gilda Pratama ada di rumah.",
     {
       "entities": [
         [
-          5,
+          68,
+          81,
+          "PERSON"
+        ],
+        [
+          20,
+          42,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "apakah bisa jemput paket dari gg. m.h thamrin no. 472 atas nama julia irawan?",
+    {
+      "entities": [
+        [
+          64,
+          76,
+          "PERSON"
+        ],
+        [
           30,
-          "PERSON"
-        ],
-        [
-          59,
-          98,
+          53,
           "ADDRESS"
         ]
       ]
     }
   ],
   [
-    "Halo admin, saya R.M. Kusuma Manullang dari Jalan Surapati No. 2, Subulussalam, SN 09379, mau tanya ongkir.",
+    "tolong cek resi untuk penerima marsito saefullah di jalan kendalsari no. 7, pematangsiantar.",
     {
       "entities": [
         [
-          17,
-          38,
-          "PERSON"
-        ],
-        [
-          44,
-          88,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Kayla Ardianto dari Jalan Joyoboyo No. 825, Dumai, Sulawesi Tenggara 47859, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
           31,
+          48,
           "PERSON"
         ],
         [
-          37,
+          52,
           91,
           "ADDRESS"
         ]
@@ -2431,12 +4693,702 @@
     }
   ],
   [
-    "Kurir bilang alamat Gang Wonoayu No. 499, Tangerang, Jawa Barat 13412 tidak ditemukan, padahal Rahmi Wijaya ada di rumah.",
+    "Saya kecewa sekali dengan pelayanan kurirnya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Apakah saya bisa ambil paket sendiri di gudang?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "posisi paket dr. gaman ardianto sekarang dimana ya? tujuannya ke gg. jayawijaya no. 76, tidore kepulauan",
+    {
+      "entities": [
+        [
+          13,
+          31,
+          "PERSON"
+        ],
+        [
+          65,
+          104,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket an. rafid nurdiyanti belum sampe ke jalan kutisari selatan no. 450, kota administrasi jakarta timur",
+    {
+      "entities": [
+        [
+          10,
+          26,
+          "PERSON"
+        ],
+        [
+          42,
+          105,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama clara mandasari di jalan kebonjati no. 78",
+    {
+      "entities": [
+        [
+          44,
+          59,
+          "PERSON"
+        ],
+        [
+          63,
+          85,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya kecewa sekali dengan pelayanan kurirnya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Alamat: Gg. Asia Afrika No. 4. Penerima: Vicky Simbolon. Cek dong.",
+    {
+      "entities": [
+        [
+          41,
+          55,
+          "PERSON"
+        ],
+        [
+          8,
+          29,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Barang saya hancur lebur saat sampai.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "paket an. Tri Pranowo, S.Psi belum sampe ke Jl. R.E Martadinata No. 85, Kota Administrasi Jakarta Timur",
+    {
+      "entities": [
+        [
+          10,
+          28,
+          "PERSON"
+        ],
+        [
+          44,
+          103,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "rumah saya di gang jend. sudirman no. 9, semarang, tolong dicek a.n wardaya suryono",
+    {
+      "entities": [
+        [
+          68,
+          83,
+          "PERSON"
+        ],
+        [
+          14,
+          49,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket an. raihan hassanah, m.ak belum sampe ke jalan otto iskandardinata no. 1, salatiga, jb 71747",
+    {
+      "entities": [
+        [
+          10,
+          31,
+          "PERSON"
+        ],
+        [
+          47,
+          98,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "rumah saya di Jalan Peta No. 99, Blitar, tolong dicek a.n Gina Prasetyo",
+    {
+      "entities": [
+        [
+          58,
+          71,
+          "PERSON"
+        ],
+        [
+          14,
+          39,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kurir bilang alamat gang surapati no. 6, solok, ku 76153 tidak ditemukan, padahal r. halim kurniawan ada di rumah.",
+    {
+      "entities": [
+        [
+          82,
+          100,
+          "PERSON"
+        ],
+        [
+          20,
+          56,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke bima ya, penerimanya ir. mala fujiati, m.farm",
+    {
+      "entities": [
+        [
+          30,
+          54,
+          "PERSON"
+        ],
+        [
+          9,
+          13,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Paket saya atas nama Rahmat Riyanti, S.Sos yang dikirim ke Tangerang Selatan kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          42,
+          "PERSON"
+        ],
+        [
+          59,
+          76,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "apakah bisa jemput paket dari jalan indragiri no. 986, kupang, be 80085 atas nama ifa purnawati?",
+    {
+      "entities": [
+        [
+          82,
+          95,
+          "PERSON"
+        ],
+        [
+          30,
+          71,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama satya suryono di gang medokan ayu no. 66, palangkaraya, kalimantan tengah 72386",
+    {
+      "entities": [
+        [
+          44,
+          57,
+          "PERSON"
+        ],
+        [
+          61,
+          123,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "dr. zaenab agustina, s.e.i disini. paket ke jalan erlangga no. 6 aman?",
+    {
+      "entities": [
+        [
+          0,
+          26,
+          "PERSON"
+        ],
+        [
+          44,
+          64,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "posisi paket drg. harjo thamrin sekarang dimana ya? tujuannya ke jalan ir. h. djuanda no. 8",
+    {
+      "entities": [
+        [
+          13,
+          31,
+          "PERSON"
+        ],
+        [
+          65,
+          91,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kirim ke Jalan KH Amin Jasuta No. 9, Singkawang, Bengkulu 80778 ya min, titip ke Tgk. Nadia Maryati, S.Pt.",
+    {
+      "entities": [
+        [
+          81,
+          105,
+          "PERSON"
+        ],
+        [
+          9,
+          63,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kirim ke kotamobagu ya min, titip ke queen sitompul.",
+    {
+      "entities": [
+        [
+          37,
+          51,
+          "PERSON"
+        ],
+        [
+          9,
+          19,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "min, jalan kendalsari no. 44, ternate, jambi 92752 bisa cod gak? an chelsea mahendra.",
+    {
+      "entities": [
+        [
+          68,
+          84,
+          "PERSON"
+        ],
+        [
+          5,
+          50,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah saya bisa ambil paket sendiri di gudang?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Kirim ke Gg. Ciwastra No. 927, Yogyakarta, PB 72395 ya min, titip ke Violet Prakasa.",
+    {
+      "entities": [
+        [
+          69,
+          83,
+          "PERSON"
+        ],
+        [
+          9,
+          51,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima maras saptono di gang sukabumi no. 5.",
+    {
+      "entities": [
+        [
+          31,
+          44,
+          "PERSON"
+        ],
+        [
+          48,
+          67,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "woy paket ir. yahya gunarto nyasar ke tangerang nih!",
+    {
+      "entities": [
+        [
+          10,
+          27,
+          "PERSON"
+        ],
+        [
+          38,
+          47,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke jl. kutisari selatan no. 1, tarakan ya, penerimanya elvina sihotang, m.pd",
+    {
+      "entities": [
+        [
+          61,
+          82,
+          "PERSON"
+        ],
+        [
+          9,
+          44,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Permisi, paket saya statusnya gagal kirim.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Min, tolong cek DM saya ya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "rumah saya di Jalan Sukabumi No. 50, tolong dicek a.n Bakianto Suartini",
+    {
+      "entities": [
+        [
+          54,
+          71,
+          "PERSON"
+        ],
+        [
+          14,
+          35,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Tolong cek resi untuk penerima Yulia Saptono di Gg. Pasirkoja No. 011.",
+    {
+      "entities": [
+        [
+          31,
+          44,
+          "PERSON"
+        ],
+        [
+          48,
+          69,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir bilang alamat Palangkaraya tidak ditemukan, padahal Tgk. Vicky Hassanah ada di rumah.",
+    {
+      "entities": [
+        [
+          58,
+          77,
+          "PERSON"
+        ],
+        [
+          20,
+          32,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Pagi, saya sudah menunggu 3 hari.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Alamat: Gang Gedebage Selatan No. 8, Magelang, Maluku 01585. Penerima: Zulfa Hidayat. Cek dong.",
+    {
+      "entities": [
+        [
+          71,
+          84,
+          "PERSON"
+        ],
+        [
+          8,
+          59,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "min, jl. sukajadi no. 3, tanjungpinang, pb 57173 bisa cod gak? an saadat haryanti.",
+    {
+      "entities": [
+        [
+          66,
+          81,
+          "PERSON"
+        ],
+        [
+          5,
+          48,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Woy paket Argono Nababan nyasar ke Padang nih!",
+    {
+      "entities": [
+        [
+          10,
+          24,
+          "PERSON"
+        ],
+        [
+          35,
+          41,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya mau lapor barang rusak, gimana caranya?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "saya danuja yolanda, mau komplain pengiriman ke jl. rajawali timur no. 792, semarang yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          19,
+          "PERSON"
+        ],
+        [
+          48,
+          84,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir tidak sopan saat antar barang.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama Rendy Kurniawan di Jl. Kiaracondong No. 56, Bitung, Jawa Barat 30925",
+    {
+      "entities": [
+        [
+          44,
+          59,
+          "PERSON"
+        ],
+        [
+          63,
+          112,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya Banawa Saefullah, mau komplain pengiriman ke Ambon yang rusak.",
+    {
+      "entities": [
+        [
+          5,
+          21,
+          "PERSON"
+        ],
+        [
+          50,
+          55,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Gang Veteran No. 833, Bitung bisa cod gak? an Wira Irawan.",
+    {
+      "entities": [
+        [
+          51,
+          62,
+          "PERSON"
+        ],
+        [
+          5,
+          33,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima r. lasmanto tarihoran di gang kendalsari no. 01.",
+    {
+      "entities": [
+        [
+          31,
+          52,
+          "PERSON"
+        ],
+        [
+          56,
+          78,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "pagi, saya mau lapor barang rusak atas nama anastasia nasyiah, s.e. di jalan ciumbuleuit no. 799, padangpanjang, kalimantan selatan 31531",
+    {
+      "entities": [
+        [
+          44,
+          67,
+          "PERSON"
+        ],
+        [
+          71,
+          137,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Posisi paket Okto Zulkarnain sekarang dimana ya? tujuannya ke Gg. Kebonjati No. 5",
+    {
+      "entities": [
+        [
+          13,
+          28,
+          "PERSON"
+        ],
+        [
+          62,
+          81,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Gg. HOS. Cokroaminoto No. 776, Tual, Nusa Tenggara Barat 49292 bisa cod gak? an Farah Sitorus.",
+    {
+      "entities": [
+        [
+          85,
+          98,
+          "PERSON"
+        ],
+        [
+          5,
+          67,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir bilang alamat Jalan Kutai No. 74, Tegal, Sulawesi Selatan 35693 tidak ditemukan, padahal Drs. Zulaikha Pradana ada di rumah.",
     {
       "entities": [
         [
           95,
-          107,
+          116,
           "PERSON"
         ],
         [
@@ -2448,102 +5400,399 @@
     }
   ],
   [
-    "Halo admin, saya Talia Megantara dari Gg. W.R. Supratman No. 782, Pasuruan, LA 25790, mau tanya ongkir.",
+    "Permisi, paket saya statusnya gagal kirim.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Woy paket R. Queen Ardianto nyasar ke Tanjungbalai nih!",
     {
       "entities": [
         [
-          17,
-          32,
+          10,
+          27,
           "PERSON"
         ],
         [
           38,
+          50,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Permisi, paket saya statusnya gagal kirim.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Apakah bisa jemput paket dari Jl. Asia Afrika No. 42, Samarinda, BA 72625 atas nama Laila Pratama, S.E.I?",
+    {
+      "entities": [
+        [
           84,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Paket saya atas nama dr. Ajeng Laksita, S.E.I yang dikirim ke Gang Rajiman No. 77, Bau-Bau, Bali 40438 kok belum sampai?",
-    {
-      "entities": [
-        [
-          21,
-          45,
-          "PERSON"
-        ],
-        [
-          62,
-          102,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Saya Ella Haryanti, mau komplain pengiriman ke Gg. R.E Martadinata No. 80, Probolinggo, KT 13407 yang rusak.",
-    {
-      "entities": [
-        [
-          5,
-          18,
-          "PERSON"
-        ],
-        [
-          47,
-          96,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Halo admin, saya Kamaria Irawan dari Jl. Kutai No. 5, Cimahi, JB 30958, mau tanya ongkir.",
-    {
-      "entities": [
-        [
-          17,
-          31,
-          "PERSON"
-        ],
-        [
-          37,
-          70,
-          "ADDRESS"
-        ]
-      ]
-    }
-  ],
-  [
-    "Apakah bisa jemput paket dari Gang Joyoboyo No. 81, Tomohon, Sulawesi Barat 42232 atas nama Rina Nasyiah?",
-    {
-      "entities": [
-        [
-          92,
           104,
           "PERSON"
         ],
         [
           30,
-          81,
+          73,
           "ADDRESS"
         ]
       ]
     }
   ],
   [
-    "Apakah bisa jemput paket dari Gang Sukabumi No. 11, Pekanbaru, KR 77590 atas nama Janet Prayoga, S.Sos?",
+    "Kirim ke Gang Rawamangun No. 0 ya min, titip ke Jaiman Usada, S.Ked.",
     {
       "entities": [
         [
-          82,
-          102,
+          48,
+          67,
           "PERSON"
         ],
         [
+          9,
           30,
-          71,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "rumah saya di kota administrasi jakarta utara, tolong dicek a.n karimah natsir",
+    {
+      "entities": [
+        [
+          64,
+          78,
+          "PERSON"
+        ],
+        [
+          14,
+          45,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "kirim ke cirebon ya min, titip ke atma wahyudin.",
+    {
+      "entities": [
+        [
+          34,
+          47,
+          "PERSON"
+        ],
+        [
+          9,
+          16,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Alamat: Jl. Yos Sudarso No. 380, Padangpanjang, Jawa Barat 56704. Penerima: Citra Kurniawan. Cek dong.",
+    {
+      "entities": [
+        [
+          76,
+          91,
+          "PERSON"
+        ],
+        [
+          8,
+          64,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Apakah saya bisa ambil paket sendiri di gudang?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Paket saya atas nama Atma Damanik yang dikirim ke Gg. Moch. Ramdan No. 54, Yogyakarta kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          33,
+          "PERSON"
+        ],
+        [
+          50,
+          85,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke Pekalongan ya, penerimanya Ami Widiastuti, S.Psi",
+    {
+      "entities": [
+        [
+          36,
+          57,
+          "PERSON"
+        ],
+        [
+          9,
+          19,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "septi sihombing disini. paket ke gg. sadang serang no. 1, banjar, jb 40693 aman?",
+    {
+      "entities": [
+        [
+          0,
+          15,
+          "PERSON"
+        ],
+        [
+          33,
+          74,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kirim ke Pekanbaru ya min, titip ke Kani Iswahyudi.",
+    {
+      "entities": [
+        [
+          36,
+          50,
+          "PERSON"
+        ],
+        [
+          9,
+          18,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke Gang Peta No. 662 ya, penerimanya Upik Widiastuti",
+    {
+      "entities": [
+        [
+          43,
+          58,
+          "PERSON"
+        ],
+        [
+          9,
+          26,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "tolong cek resi untuk penerima ir. rahayu irawan, s.e.i di jl. k.h. wahid hasyim no. 48.",
+    {
+      "entities": [
+        [
+          31,
+          55,
+          "PERSON"
+        ],
+        [
+          59,
+          87,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Min, Gang Cikutra Timur No. 5 bisa cod gak? an Azalea Sihombing.",
+    {
+      "entities": [
+        [
+          47,
+          63,
+          "PERSON"
+        ],
+        [
+          5,
+          29,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kenapa ongkir ke tempat saya mahal sekali?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "rumah saya di gg. monginsidi no. 9, kota administrasi jakarta selatan, ji 25725, tolong dicek a.n dr. padmi fujiati",
+    {
+      "entities": [
+        [
+          98,
+          115,
+          "PERSON"
+        ],
+        [
+          14,
+          79,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "paket saya atas nama asmadi saputra yang dikirim ke tangerang selatan kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          35,
+          "PERSON"
+        ],
+        [
+          52,
+          69,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "T. Emong Tarihoran, S.IP disini. Paket ke Gg. Erlangga No. 120, Pariaman aman?",
+    {
+      "entities": [
+        [
+          0,
+          24,
+          "PERSON"
+        ],
+        [
+          42,
+          72,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Kurir bilang alamat Jalan Rajawali Barat No. 132, Tanjungbalai, Kalimantan Timur 23216 tidak ditemukan, padahal Ira Tarihoran ada di rumah.",
+    {
+      "entities": [
+        [
+          112,
+          125,
+          "PERSON"
+        ],
+        [
+          20,
+          86,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya kecewa sekali dengan pelayanan kurirnya.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "min, jl. kutai no. 250, bekasi bisa cod gak? an vanesa kusumo, s.pt.",
+    {
+      "entities": [
+        [
+          48,
+          67,
+          "PERSON"
+        ],
+        [
+          5,
+          30,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Saya tidak terima kalau barangnya pecah.",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Posisi paket Slamet Setiawan sekarang dimana ya? tujuannya ke Tebingtinggi",
+    {
+      "entities": [
+        [
+          13,
+          28,
+          "PERSON"
+        ],
+        [
+          62,
+          74,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "Halo admin, saya mau tanya resi saya kok tidak bergerak?",
+    {
+      "entities": []
+    }
+  ],
+  [
+    "Paket saya atas nama Wahyu Prabowo yang dikirim ke Gg. Tebet Barat Dalam No. 256, Jambi, SS 61517 kok belum sampai?",
+    {
+      "entities": [
+        [
+          21,
+          34,
+          "PERSON"
+        ],
+        [
+          51,
+          97,
+          "ADDRESS"
+        ]
+      ]
+    }
+  ],
+  [
+    "antar ke Jalan Cikutra Timur No. 52 ya, penerimanya Karma Mansur",
+    {
+      "entities": [
+        [
+          52,
+          64,
+          "PERSON"
+        ],
+        [
+          9,
+          35,
           "ADDRESS"
         ]
       ]

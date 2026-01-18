@@ -2,3 +2,16 @@ venv/
 .env
 __pycache__/
 *.pyc
+.streamlit/
+additional/
+
+#logs
+*.log
+logs/
+coverage.xml
+*.coverage
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
