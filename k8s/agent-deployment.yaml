@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agent-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: agent-service
+  template:
+    metadata:
+      labels:
+        app: agent-service
+    spec:
+      containers:
+      - name: agent-container
+        image: asia-southeast2-docker.pkg.dev/shipvue-project/shipvue-repo/agent-service:v1
+        ports:
+        - containerPort: 8501
+        env:
+        # Menghubungkan Agent ke NER 
+        - name: NER_SERVICE_URL
+          value: "http://ner-service:80" 
+        # Mengambil API Key dari Secret
+        - name: GOOGLE_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: gemini-api-key
+              key: key
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: agent-public
+spec:
+  selector:
+    app: agent-service
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8501
+  type: LoadBalancer # Public IP  

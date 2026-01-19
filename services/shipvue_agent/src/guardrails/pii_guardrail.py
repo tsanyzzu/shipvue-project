@@ -58,7 +58,7 @@ class PIIGuardrail:
         perf_metrics["ner_memory_mb"] = ner_perf.get("ner_memory_mb", 0)
         perf_metrics["ner_cpu_percent"] = ner_perf.get("ner_cpu_percent", 0)
 
-        WHITELIST_WORDS = ["shipvue", "min", "admin", "kak", "gan", "sis", "bro"]
+        WHITELIST_WORDS = ["shipvue", "Shipvue", "min", "admin", "kak", "gan", "sis", "bro"]
 
         for ent in ner_results:
             if self._is_overlap(ent, claimed_ranges):
