@@ -61,9 +61,6 @@ class PIIGuardrail:
         WHITELIST_WORDS = ["shipvue", "min", "admin", "kak", "gan", "sis", "bro"]
 
         for ent in ner_results:
-            # PERBAIKAN: Hapus 'not'. 
-            # Artinya: Jika overlap dengan regex, skip (prioritas regex).
-            # Jika TIDAK overlap (unik), lanjut ke bawah untuk disimpan.
             if self._is_overlap(ent, claimed_ranges):
                 continue
 
