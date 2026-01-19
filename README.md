@@ -1,8 +1,8 @@
-# Shipvue AI Support Agent with PII Guardrails 🛡️
+# Shipvue AI Support Agent with PII Guardrails 
 
 Project ini adalah implementasi AI Agent untuk Customer Support yang dilengkapi dengan sistem proteksi data pribadi (PII Guardrail) menggunakan pendekatan Hybrid (Regex + Named Entity Recognition).
 
-## 📋 Daftar Isi
+## Daftar Isi
 - [Arsitektur Sistem](#-arsitektur-sistem)
 - [Fitur Utama](#-fitur-utama)
 - [Cara Menjalankan (Installation)](#-cara-menjalankan)
@@ -10,7 +10,7 @@ Project ini adalah implementasi AI Agent untuk Customer Support yang dilengkapi 
 - [Laporan Performa](#-laporan-performa)
 - [Deployment (GKE)](#-deployment-strategy)
 
-## 🏗 Arsitektur Sistem
+## Arsitektur Sistem
 
 Sistem terdiri dari dua layanan mikro (Microservices) yang berjalan dalam container Docker:
 
@@ -122,8 +122,7 @@ Sistem menggunakan logika **Overlap Handling** cerdas untuk menggabungkan hasil 
 
 | Input User | Sanitized Output (ke LLM) |
 | --- | --- |
-| "Nama saya **Budi** di **Malang**." | "Nama saya **[PERSON_REDACTED]** di **[GPE_REDACTED]**." |
-| "Cek resi **JP999** dong min." | "Cek resi **[RESI_ID_REDACTED]** dong min." |
+| "Nama saya **Budi** di **Malang**." | "Nama saya **[PERSON_REDACTED]** di **[ADDRESS_REDACTED]**." |
 | "Email saya **budi@gmail.com**" | "Email saya **[EMAIL_ADDRESS_REDACTED]**" |
 
 ---
