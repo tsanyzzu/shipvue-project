@@ -1,0 +1,16 @@
+# File: docker/Dockerfile.ner
+FROM python:3.9-slim
+WORKDIR /app
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    python3-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY services/ner_service/requirements.txt .
+RUN pip install --upgrade pip
+RUN pip install --no-cache-dir -r requirements.txt
+COPY services/ner_service /app/services/ner_service
+COPY services/ner_service/models /app/models
+ENV PYTHONPATH=/app
+EXPOSE 8000
+CMD ["python", "services/ner_service/src/main.py"]

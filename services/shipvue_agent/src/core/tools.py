@@ -3,9 +3,9 @@ import random
 
 # MOCK DATABASE
 MOCK_DB_RESI = {
-    "JP123456": {"status": "DELIVERED", "loc": "Surabaya", "receiver": "Budi"},
-    "JP888999": {"status": "ON_PROCESS", "loc": "Gudang Jakarta", "receiver": "Siti"},
-    "JP555666": {"status": "PENDING", "loc": "Drop Point Bandung", "receiver": "Andi"},
+    "JP123456": {"status": "DELIVERED", "loc": "Surabaya", "receiver": "Jajang Nurdjaman"},
+    "JP888999": {"status": "ON_PROCESS", "loc": "Gudang Jakarta", "receiver": "Lionel Messi"},
+    "JP555666": {"status": "PENDING", "loc": "Drop Point Bandung", "receiver": "Andres Iniesta"},
 }
 
 class ShipvueTools:
@@ -27,7 +27,6 @@ class ShipvueTools:
         resi_clean = resi_number.strip().upper().replace(".", "")
         
         if "REDACTED" in resi_clean and self.context:
-            # Cari apakah ada value asli di vault yang cocok (Simplifikasi)
             pass 
 
         data = MOCK_DB_RESI.get(resi_clean)

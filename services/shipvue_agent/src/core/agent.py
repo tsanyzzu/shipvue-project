@@ -109,7 +109,7 @@ class ShipvueAgent:
             # Vault 
             vault = {}
             for log in audit_logs:
-                unique_tag = log.get('tag')  # Ambil tag unik ([PERSON_REDACTED]_2)
+                unique_tag = log.get('tag')  # Ambil tag unik 
                 original_text = log.get('original')
 
                 if unique_tag and original_text:

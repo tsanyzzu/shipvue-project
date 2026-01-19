@@ -1,4 +1,5 @@
 from typing import List, Dict, Tuple
+import os
 import time
 try:
     from .regex_pattern import RegexGuardrail
@@ -8,9 +9,13 @@ except ImportError:
     from ner_connector import NERConnector
 
 class PIIGuardrail:
-    def __init__(self, ner_url="http://localhost:8000"):
+    def __init__(self, ner_url=None):
+        if ner_url is None:
+            self.ner_url = os.getenv("NER_SERVICE_URL", "http://localhost:8000")
+        else:
+            self.ner_url = ner_url
         self.regex_engine = RegexGuardrail()
-        self.ner_engine = NERConnector(service_url=ner_url)
+        self.ner_engine = NERConnector(service_url=self.ner_url)
 
     def _is_overlap(self, new_ent: Dict, existing_ranges: List[Tuple[int, int]]) -> bool:
         new_start, new_end = new_ent['start'], new_ent['end']

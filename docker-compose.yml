@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  # Service 1: NER (Backend)
+  ner-service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.ner
+    container_name: shipvue-ner
+    ports:
+      - "8000:8000"
+    networks:
+      - shipvue-net
+
+  # Service 2: Agent (Frontend)
+  agent-service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.agent
+    container_name: shipvue-agent
+    ports:
+      - "8501:8501"
+    environment:
+      - NER_SERVICE_URL=http://ner-service:8000
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY} 
+    depends_on:
+      - ner-service
+    networks:
+      - shipvue-net
+
+networks:
+  shipvue-net:
+    driver: bridge

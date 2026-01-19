@@ -1,5 +1,6 @@
-google-genai==0.3.0
-streamlit==1.31.0
+google-genai
+streamlit
 python-dotenv==1.0.1
-requests==2.31.0
+requests==2.32.4
 pandas==2.2.0
+google-adk==1.22.1
