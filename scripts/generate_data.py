@@ -52,7 +52,7 @@ def get_messy_address():
     r = random.random()
     addr = fake.address().replace('\n', ', ').replace(',,', ',').strip()
     
-    if r < 0.2: return fake.city_name() # Cuma Kota
+    if r < 0.2: return fake.city_name() # Kota only
     elif r < 0.5: return f"{fake.street_name()} No. {fake.building_number()}" # Jalan Pendek
     elif r < 0.7: return f"{fake.street_name()} No. {fake.building_number()}, {fake.city_name()}" # hampir lengkap
     else: return addr # Lengkap
@@ -118,7 +118,7 @@ def generate_training_data():
 
     pbar.close()
     
-    output_path = "data/raw/shipvue_dataset.json"
+    output_path = "data/raw/backup_shipvue_dataset.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(training_data, f, indent=2)
         

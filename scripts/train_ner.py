@@ -83,19 +83,29 @@ if __name__ == "__main__":
     ner_model = train_ner_model(train_data)
     
     # Test Prediksi
-    REAL_TEST_DATA = [
+    TEST_DATA = [
     ("Halo min, posisi paket Andi Saputra sekarang dimana ya?", {"entities": [(23, 35, "PERSON")]}),
-    ("antar ke jl. mawar no 5 malang, penerimanya siti aminah", {"entities": [(9, 31, "ADDRESS"), (45, 56, "PERSON")]}), # Lowercase extreme
-    ("paket an. Budi Gunawan belum sampe ke Surabaya", {"entities": [(10, 22, "PERSON"), (38, 46, "ADDRESS")]}), # Struktur beda
-    ("rumah saya di Komp. Griya Indah Blok A1", {"entities": [(14, 39, "ADDRESS")]}), # Alamat tanpa nama
-    ("pagi, saya mau lapor barang rusak atas nama Dewi Sartika", {"entities": [(44, 56, "PERSON")]})
+    ("antar ke jl. mawar no 5 malang, penerimanya siti aminah", {"entities": [(9, 31, "ADDRESS"), (45, 56, "PERSON")]}), 
+    ("paket an. Budi Gunawan belum sampe ke Surabaya", {"entities": [(10, 22, "PERSON"), (38, 46, "ADDRESS")]}), 
+    ("rumah saya di Komp. Griya Indah Blok A1", {"entities": [(14, 39, "ADDRESS")]}), 
+    ("pagi, saya mau lapor barang rusak atas nama Dewi Sartika", {"entities": [(44, 56, "PERSON")]}),
+    ("Bapak Budi Santoso tinggal di Jalan Melati Nomor 15, Kelurahan Menteng, Jakarta Pusat.", {"entities": [(6, 18, "PERSON"), (30, 85, "ADDRESS")]}),
+    ("Siti Aminah mengirimkan paket ke Jl. Ahmad Yani No. 12B, RT 003/RW 005, Bandung.", {"entities": [(0, 11, "PERSON"), (33, 79, "ADDRESS")]}),
+    ("Kemarin saya bertemu Andi Wijaya saat dia sedang berjalan di sekitar Komplek Perumahan Griya Indah Blok C4, Bogor.", {"entities": [(21, 32, "PERSON"), (69, 113, "ADDRESS")]}),
+    ("Dewi Lestari bekerja di Gedung Cyber 2, Kuningan, Jakarta.", {"entities": [(0, 12, "PERSON"), (24, 57, "ADDRESS")]}),
+    ("Surat keputusan tersebut ditandatangani oleh Dr. Ir. H. Agus Setiawan, M.Sc. di kantornya.", {"entities": [(45, 75, "PERSON")]}),
+    ("Tolong kirimkan dokumen ini kepada Rina Permata yang beralamat di Dusun Krajan, Desa Sumbersekar, Kecamatan Dau, Kabupaten Malang, Jawa Timur 65151.", {"entities": [(35, 47, "PERSON"), (66, 147, "ADDRESS")]}),
+    ("Solo adalah sahabat lama Yogyakarta yang tinggal di Jalan Slamet Riyadi, Surakarta.", {"entities": [(52, 82, "ADDRESS")]}),
+    ("penerima paket ini adalah joko susilo yang berlokasi di perumahan taman palem regency blok a1 no 5, surabaya.", {"entities": [(26, 37, "PERSON"), (56, 108, "ADDRESS")]}),
+    ("Anita Rahmawati menunggu di depan Toko Kelontong Berkah, Gg. Haji Umar, Depok.", {"entities": [(0, 15, "PERSON"), (34, 77, "ADDRESS")]}),
+    ("Muhammad Rizky Pratama Putra baru saja pindah ke Apartemen Green Pramuka City Tower Chrysant Lantai 12, Jakarta Timur.", {"entities": [(0, 28, "PERSON"), (49, 117, "ADDRESS")]})
 ]
 
     print("\n" + "="*40)
     print("LAPORAN EVALUASI MODEL NER (Test Set)")
     print("="*40)
 
-    metrics = evaluate_model(ner_model, REAL_TEST_DATA)
+    metrics = evaluate_model(ner_model, TEST_DATA)
     ents_per_type = metrics.get('ents_per_type', {}) # Ambil nilai per entitas
     
     print(f"{'ENTITY':<10} | {'PRECISION':<10} | {'RECALL':<10} | {'F1-SCORE':<10}")
@@ -113,16 +123,16 @@ if __name__ == "__main__":
     print("="*40)
 
     #Preview test
-    doc = ner_model(random.choice(REAL_TEST_DATA)[0])
+    doc = ner_model(random.choice(TEST_DATA)[0])
     print("\n--- Test Prediksi ---")
     print(f"Kalimat: {doc.text}")
     for ent in doc.ents:
         print(f"Deteksi: {ent.text} ({ent.label_})")
 
     # Simpan Model
-    output_dir = Path(MODEL_OUTPUT_DIR)
-    if not output_dir.exists():
-        output_dir.mkdir(parents=True)
+    # output_dir = Path(MODEL_OUTPUT_DIR)
+    # if not output_dir.exists():
+    #     output_dir.mkdir(parents=True)
         
-    ner_model.to_disk(output_dir)
-    print(f"\nModel tersimpan di: {output_dir}")
+    # ner_model.to_disk(output_dir)
+    # print(f"\nModel tersimpan di: {output_dir}")

@@ -30,8 +30,7 @@ try:
     print("[INIT] Model loaded successfully!")
 except Exception as e:
     print(f"[ERROR] Gagal load model. Error: {e}")
-    # Fallback ke blank model agar API tidak crash 
-    nlp = spacy.blank("id")
+    nlp = spacy.blank("id") # Fallback ke blank model agar API tidak crash 
 
 # Skema Input & Output 
 class TextRequest(BaseModel):
@@ -66,8 +65,8 @@ def scan_text(request: TextRequest):
     
     # End Performance Metric
     end_time = time.perf_counter()
-    latency = (end_time - start_time) * 1000  # ke miliseconds
-    memory = process.memory_info().rss / 1024 / 1024 # ke MB
+    latency = (end_time - start_time) * 1000  
+    memory = process.memory_info().rss / 1024 / 1024 
     
     # Format Output
     entities = []
@@ -90,5 +89,4 @@ def scan_text(request: TextRequest):
 
 if __name__ == "__main__":
     import uvicorn
-    # Menjalankan server lokal di port 8000
     uvicorn.run(app, host="0.0.0.0", port=8000)
