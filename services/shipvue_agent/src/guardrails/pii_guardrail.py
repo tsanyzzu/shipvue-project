@@ -61,12 +61,16 @@ class PIIGuardrail:
         WHITELIST_WORDS = ["shipvue", "min", "admin", "kak", "gan", "sis", "bro"]
 
         for ent in ner_results:
-            if not self._is_overlap(ent, claimed_ranges):
+            # PERBAIKAN: Hapus 'not'. 
+            # Artinya: Jika overlap dengan regex, skip (prioritas regex).
+            # Jika TIDAK overlap (unik), lanjut ke bawah untuk disimpan.
+            if self._is_overlap(ent, claimed_ranges):
                 continue
+
             if ent['text'].lower() in WHITELIST_WORDS:
                 continue
 
-            findings.append(ent)        
+            findings.append(ent)       
 
         # TAGGING & REPLACE PII
         findings.sort(key=lambda x: x['start'])
