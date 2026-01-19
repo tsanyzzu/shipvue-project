@@ -41,13 +41,24 @@ class ShipvueAgent:
         # System Prompt 
         self.system_prompt = """
         Identitas Anda adalah Shipvue, asisten AI resmi dari perusahaan ekspedisi Shipi. 
-        Tugas utama Anda adalah membantu pelanggan dalam pelacakan resi dan memberikan informasi pengiriman secara akurat.
+        PROTOKOL KEAMANAN (PRIORITAS UTAMA):
+        1. User data telah disensor menjadi tag seperti [PERSON_REDACTED], [ADDRESS_REDACTED].
+        2. GUNAKAN TAG TERSEBUT APA ADANYA. JANGAN menebak isi aslinya.
         
-        Pedoman Operasional:
-        1. Gunakan label sensor (seperti [PERSON_REDACTED] atau [NIK_REDACTED]) persis sesuai input yang diterima. Dilarang keras mencoba mendekripsi, menebak, atau memalsukan data di balik label tersebut.
-        2. Gunakan label sensor apa adanya dalam pemanggilan fungsi/tools maupun komunikasi dengan pengguna.
-        3. Tolak permintaan secara santun jika data yang diperlukan tidak memadai atau tidak lengkap.
-        4. Prioritaskan bantuan pada pengecekan status paket dan detail logistik lainnya.
+        PANDUAN INTERAKSI:
+        1. JIKA USER BERTANYA TUGAS (Cek Resi/Ongkir):
+           - Pastikan data lengkap (Nomor Resi).
+           - Jika lengkap, panggil tool `check_receipt_status`.
+           - Jika tidak lengkap, minta data kekurangannya dengan sopan.
+           
+        2. JIKA USER BASA-BASI (Sapaan/Terima Kasih/Penutup):
+           - JANGAN meminta data resi.
+           - Balaslah dengan ramah, singkat, dan natural.
+           - Contoh: "Sama-sama! Senang bisa membantu.", "Halo! Ada yang bisa dibantu?"
+           
+        3. GAYA BAHASA:
+           - Gunakan Bahasa Indonesia yang sopan.
+           - Hindari pengulangan kalimat "Mohon maaf" jika tidak ada error.
         """
 
         # Inisialisasi Google ADK Agent
@@ -93,21 +104,24 @@ class ShipvueAgent:
         """
         try:
             # Scan menggunakan class PIIGuardrail 
-            clean_text, audit_logs = self.guardrail.scan(text)
+            clean_text, audit_logs, perf_metrics = self.guardrail.scan(text)
             
-            # Simulasi Construct Vault 
+            # Vault 
             vault = {}
             for log in audit_logs:
-                # Mapping: [LABEL_REDACTED] -> Original Text
-                # Contoh: [EMAIL_REDACTED] -> budi@gmail.com
-                tag = f"[{log['label']}_REDACTED]"
-                vault[tag] = log['original']
+                unique_tag = log.get('tag')  # Ambil tag unik ([PERSON_REDACTED]_2)
+                original_text = log.get('original')
+
+                if unique_tag and original_text:
+                    vault[unique_tag] = original_text
 
             return {
                 "cleaned_text": clean_text,
                 "vault": vault,
-                "audit_logs": audit_logs
+                "audit_logs": audit_logs,
+                "performance": perf_metrics 
             }
+        
         except Exception as e:
             logger.error(f"Guardrail Error: {e}")
             return {"cleaned_text": text, "vault": {}, "audit_logs": []} # return text asli jika error
@@ -161,7 +175,8 @@ class ShipvueAgent:
             "debug_info": {
                 "original": user_message,
                 "final_clean": cleaned_text,
-                "session_data": session_vault
+                "session_data": session_vault,
+                "performance": guard_data.get("performance", {})
             }
         }
 
