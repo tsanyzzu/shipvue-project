@@ -3,12 +3,13 @@
 Project ini adalah implementasi AI Agent untuk Customer Support yang dilengkapi dengan sistem proteksi data pribadi (PII Guardrail) menggunakan pendekatan Hybrid (Regex + Named Entity Recognition).
 
 ## Daftar Isi
-- [Arsitektur Sistem](#-arsitektur-sistem)
-- [Fitur Utama](#-fitur-utama)
-- [Cara Menjalankan (Installation)](#-cara-menjalankan)
-- [Logika Guardrail](#-logika-guardrail)
-- [Laporan Performa](#-laporan-performa)
-- [Deployment (GKE)](#-deployment-strategy)
+- [Arsitektur Sistem](#arsitektur-sistem)
+- [Fitur Utama](#fitur-utama)
+- [Cara Menjalankan (Instalasi)](#cara-menjalankan-instalasi)
+- [Logika Guardrail](#logika-guardrail)
+- [Laporan Performa](#laporan-performa)
+- [Deployment (GKE)](#deployment-cloud-gke)
+- [Struktur Folder](#-struktur-folder)
 
 ## Arsitektur Sistem
 
@@ -22,9 +23,9 @@ Sistem terdiri dari dua layanan mikro (Microservices) yang berjalan dalam contai
     * Framework: FastAPI & Spacy
     * Fungsi: Melayani request deteksi entitas (Nama, Lokasi, Organisasi) menggunakan custom model.
 
-![Demo Preview](assets/diagram.png)
+![Architecture Diagram](assets/diagram.png)
 
----
+
 
 ## Fitur Utama
 
@@ -34,11 +35,29 @@ Sistem terdiri dari dua layanan mikro (Microservices) yang berjalan dalam contai
 * **Dockerized:** Siap dijalankan di lingkungan container dengan konfigurasi `docker-compose` yang lengkap.
 * **Whitelist Logic:** Mencegah *False Positive* pada kata-kata umum (seperti "Shipvue", "Admin", "Min").
 
----
 
-## Instalasi & Cara Menjalankan
 
-Anda dapat menjalankan proyek ini menggunakan dua metode: **Docker (Direkomendasikan)** atau **Manual (Localhost)**.
+## 🛠 Teknologi
+
+* **Bahasa:** Python 3.10
+* **Frontend:** Streamlit
+* **Backend API:** FastAPI, Uvicorn
+* **NLP/AI:** Spacy (Custom NER), Google Generative AI (Gemini Flash 2.5)
+* **Infra:** Docker, Google Artifact Registry (GAR), Google Kubernetes Engine (GKE)
+
+
+
+## Cara Menjalankan (Instalasi)
+
+Anda dapat mencoba sistem ini melalui link berikut:
+
+<p align="center">
+  <a href="http://34.101.138.254">
+    <b> ➡️ Try Shipvue Now ⬅️ </b>
+  </a>
+</p>
+
+Selain itu, Anda dapat menjalankan proyek ini menggunakan dua metode: **Docker (Direkomendasikan)** atau **Manual (Localhost)**.
 
 ### Prasyarat
 
@@ -103,14 +122,12 @@ streamlit run frontend/app.py
 
 ```
 
----
-
 ## Logika Guardrail 
 
 Sistem menggunakan logika **Overlap Handling** cerdas untuk menggabungkan hasil Regex dan NER:
 
-1. **Regex Scan:** Mendeteksi pola pasti (Email, URL, No HP, Format Resi `JP...`).
-2. **NER Scan:** Mendeteksi entitas kontekstual (Person, GPE/Location, Org).
+1. **Regex Scan:** Mendeteksi pola pasti (Email, NIK, No HP).
+2. **NER Scan:** Mendeteksi entitas kontekstual (Person & Address).
 3. **Conflict Resolution:**
 * Jika NER mendeteksi teks yang *sudah* ditandai oleh Regex, hasil NER diabaikan (Regex menang).
 * Jika NER mendeteksi teks baru, hasil tersebut ditambahkan.
@@ -125,8 +142,6 @@ Sistem menggunakan logika **Overlap Handling** cerdas untuk menggabungkan hasil 
 | "Nama saya **Budi** di **Malang**." | "Nama saya **[PERSON_REDACTED]** di **[ADDRESS_REDACTED]**." |
 | "Email saya **budi@gmail.com**" | "Email saya **[EMAIL_ADDRESS_REDACTED]**" |
 
----
-
 ## Laporan Performa
 
 Berdasarkan pengujian internal menggunakan  `psutil`:
@@ -135,45 +150,43 @@ Berdasarkan pengujian internal menggunakan  `psutil`:
 * **Memory Usage (NER Service):** ~300 MB.
 * **CPU Usage:** Low footprint (< 10% on idle).
 
----
+## Deployment Cloud (GKE)
 
-## Deployment Strategy (GKE)
+Project ini telah berhasil di-deploy ke **Google Kubernetes Engine (GKE)** dengan strategi *scalable*. Anda dapat melihat konfigurasi di dalam folder `k8s/`.
 
-Proyek ini telah dikonfigurasi untuk siap di-deploy ke **Google Kubernetes Engine (GKE)** untuk skalabilitas tinggi. Berikut adalah strategi deployment yang disiapkan:
+### Strategi Deployment
 
-1. **Containerization:**
-* Image Docker dipisahkan menjadi `shipvue/ner-service` dan `shipvue/agent-service` untuk isolasi resource.
-* Image di-push ke **Google Artifact Registry (GAR)**.
-
-
-2. **Kubernetes Manifests:**\
-pada folder k8s, nantinya akan diisi menggunakan file untuk konfigurasi Kubernetes. File tersebut berupa:
-* **`ner-deployment.yaml`**: Menggunakan tipe `ClusterIP` karena hanya diakses secara internal oleh Agent.
-* **`agent-deployment.yaml`**: Menggunakan tipe `LoadBalancer` untuk memberikan IP Publik kepada user.
+1. **Container Registry:** Image Docker (`ner-service` & `agent-service`) disimpan di Google Artifact Registry (Region: Asia-Southeast2).
+2. **Kubernetes Manifests:**
+* **`k8s/ner-deployment.yaml`**: Menggunakan tipe `ClusterIP`. Layanan ini tertutup dari internet publik dan hanya bisa diakses oleh Agent melalui jaringan internal cluster.
+* **`k8s/agent-deployment.yaml`**: Menggunakan tipe `LoadBalancer` untuk mendapatkan IP Publik statis agar dapat diakses pengguna.
 
 
-3. **Service Communication:**
-* Agent menghubungi NER menggunakan DNS Cluster internal: `http://ner-service:8000`, memastikan komunikasi yang aman dan cepat dalam jaringan cluster.
+3. **Security:** API Key dikelola menggunakan **Kubernetes Secrets**, tidak di-hardcode dalam file YAML.
+4. **Networking:** Komunikasi antar service menggunakan DNS Internal Kubernetes (`http://ner-service:80`).
 
 
-4. **Scaling:**
-* NER Service dapat di-scale secara horizontal (menambah replica pod) menggunakan **Horizontal Pod Autoscaler (HPA)** berbasis penggunaan CPU jika trafik meningkat.
-
-
-
----
 
 ### 📂 Struktur Folder
 
 ```
 shipvue-project/
-├── docker/                 # Konfigurasi Dockerfile
-├── k8s/                    # Konfigurasi Kubernetes 
-├── frontend/               # Kode UI Streamlit
+├── docker/                 # File konfigurasi Docker Image
+│   ├── Dockerfile.agent
+│   └── Dockerfile.ner
+├── k8s/                    # Konfigurasi Deployment Kubernetes (GKE)
+│   ├── agent-deployment.yaml
+│   └── ner-deployment.yaml
+├── frontend/               # Kode UI & Main App
+│   └── app.py
 ├── services/
-│   ├── ner_service/        # Backend FastAPI + Model Spacy
-│   └── shipvue_agent/      # Logic Agent + Guardrails
-├── requirements.txt        # Dependency global
-└── docker-compose.yml      # Orkestrasi lokal
+│   ├── ner_service/        # Backend: Model AI & API Endpoint
+│   │   ├── models/         # Artifact Model Spacy
+│   │   └── src/main.py
+│   └── shipvue_agent/      # Logic: Guardrail, Regex, & LLM Connector
+│       ├── src/core/
+│       └── src/guardrails/ # Logika PII (pii_guardrail.py)
+└──docker-compose.yml      # Orkestrasi lokal
+
 
 ```
